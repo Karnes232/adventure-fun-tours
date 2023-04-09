@@ -1,21 +1,23 @@
+import { uid } from "uid"
+
 export const links = [
   {
-    id: 1,
+    id: uid(),
     name: "Home",
     link: "/",
   },
   {
-    id: 2,
+    id: uid(),
     name: "About",
     link: "/about",
   },
   {
-    id: 3,
+    id: uid(),
     name: "Tours",
     link: "/tours",
   },
   {
-    id: 4,
+    id: uid(),
     name: "Contact Us",
     link: "/contact",
   },

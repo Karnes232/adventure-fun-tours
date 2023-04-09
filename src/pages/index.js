@@ -4,7 +4,7 @@ import HeroComponent from "../components/HeroComponent/HeroComponent"
 import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import TourCard from "../components/TourCardComponent/TourCard"
-import { links } from "../data/links"
+import { tours } from "../data/tours"
 const IndexPage = () => {
   return (
     <Layout>
@@ -24,13 +24,10 @@ const IndexPage = () => {
         <div className="mt-5">
           <TextComponent title="Choose your Tour" className="" />
         </div>
-        <div className="flex flex-col justify-center items-center mx-2 mb-5">
-        {links.map(link => {
-        return (
-          <TourCard />
-        )
-      })}
-          <TourCard />
+        <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
+          {tours.map(tour => {
+            return <TourCard key={tour.id} tour={tour} />
+          })}
         </div>
       </main>
     </Layout>

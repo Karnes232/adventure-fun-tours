@@ -1,18 +1,15 @@
 import React from "react"
-import img from "../../images/background-index3.jpg"
-const TourCard = () => {
+
+import FrontCard from "./FrontCard"
+import BackCard from "./BackCard"
+const TourCard = ({ tour }) => {
+
   return (
     <>
-      <div className="flip-card my-2 rounded-lg">
+      <div className="flip-card w-[90vw] md:w-80 h-96 my-2 md:my-6 rounded-lg">
         <div className="flip-card-inner rounded-lg">
-          <div className="flip-card-front rounded-lg">
-            <img className='rounded-lg' src={img} alt="Avatar" />
-          </div>
-          <div className="flip-card-back  rounded-lg">
-            <h1>John Doe</h1>
-            <p>Architect & Engineer</p>
-            <p>We love that guy</p>
-          </div>
+          <FrontCard tour={tour}/>
+          <BackCard tour={tour}/>
         </div>
       </div>
     </>

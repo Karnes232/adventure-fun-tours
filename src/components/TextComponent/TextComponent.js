@@ -3,20 +3,6 @@ import { motion } from "framer-motion"
 const TextComponent = ({ title, paragraph, className }) => {
   return (
     <div className="relative">
-      <div className="hidden">
-        <h2>
-          <strong>Scuba Diving in Punta Cana</strong>
-        </h2>
-        <h2>
-          <strong>punta cana scuba diving</strong>
-        </h2>
-        <h3>
-          <strong>scuba diving dominican republic</strong>
-        </h3>
-        <h4>
-          <strong>diving dominican republic</strong>
-        </h4>
-      </div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

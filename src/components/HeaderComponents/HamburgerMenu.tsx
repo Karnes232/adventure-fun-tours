@@ -49,13 +49,9 @@ const HamburgerMenu = () => {
                   <div className="py-1">
                     {links.map(link => {
                       return (
-                        <Menu.Item>
+                        <Menu.Item key={link.id}>
                           {({ active }) => (
-                            <Link
-                              to={link.link}
-                              key={link.id}
-                              className="no-underline"
-                            >
+                            <Link to={link.link} className="no-underline">
                               <button
                                 className={`${
                                   active
