@@ -30,7 +30,7 @@ const IndexPage = () => {
           })}
         </div>
         <BackgroundImage page="indexLower" />
-        <div className="mt-5">
+        <div className="my-5">
         <TextComponent
           title="With our experience we will serve you the best"
           paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!"
