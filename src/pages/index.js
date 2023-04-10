@@ -6,10 +6,15 @@ import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import TourCard from "../components/TourCardComponent/TourCard"
 import { tours } from "../data/tours"
 const IndexPage = () => {
+  const shortList = tours.slice(0, 6)
   return (
     <Layout>
       <main>
-        <HeroComponent page="index" />
+        <HeroComponent
+          page="index"
+          h1="Explore the Dominican Republic"
+          p="Find awesome water sports, buggies, horseback riding, and more!"
+        />
         <div className="mt-[85vh]"></div>
         <TextComponent
           title="With our experience we will serve you the best"
@@ -22,20 +27,20 @@ const IndexPage = () => {
         />
         <BackgroundImage page="indexMid" />
         <div className="mt-5">
-          <TextComponent title="Choose your Tour" className="" />
+          <TextComponent title="Our Best Tours" className="" />
         </div>
         <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
-          {tours.map(tour => {
+          {shortList.map(tour => {
             return <TourCard key={tour.id} tour={tour} />
           })}
         </div>
         <BackgroundImage page="indexLower" />
         <div className="my-5">
-        <TextComponent
-          title="With our experience we will serve you the best"
-          paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!"
-          className=""
-        />
+          <TextComponent
+            title="With our experience we will serve you the best"
+            paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!"
+            className=""
+          />
         </div>
       </main>
     </Layout>

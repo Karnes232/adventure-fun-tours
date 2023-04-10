@@ -8,16 +8,7 @@ const Logo = () => {
     <>
       <div className="flex justify-center items-center">
         <Link to="/" className="no-underline" aria-label="Home">
-          <div className="flex lg:hidden p-2 md:p-6 items-center w-36 h-28 cursor-pointer md:w-40 md:h-40">
-            <StaticImage
-              src="../../images/logo.png"
-              loading="eager"
-              quality={100}
-              formats={["auto", "webp", "avif"]}
-              alt=""
-            />
-          </div>
-          <div className="hidden lg:flex p-2 md:p-6 items-center w-20 h-20 cursor-pointer md:w-40 md:h-40">
+          <div className="flex p-2 md:p-6 items-center w-36 h-28 cursor-pointer md:w-48 md:h-32 xl:w-64 xl:h-40">
             <StaticImage
               src="../../images/logo.png"
               loading="eager"
@@ -27,7 +18,6 @@ const Logo = () => {
             />
           </div>
         </Link>
-        <h1 className="hidden">Grand Bay of the Sea</h1>
       </div>
     </>
   )
