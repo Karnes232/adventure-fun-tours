@@ -1,6 +1,9 @@
 {
   "name": "adventure-fun-tours",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "private": true,
   "description": "Adventure-Fun-Tours",
   "author": "James Karnes",
