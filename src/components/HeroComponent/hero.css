@@ -10,10 +10,12 @@
   .midImage {
     min-height: 50vh;
   }
+  .bgImage {
+    background-attachment: fixed;
+  }
 }
 
 .bgImage {
-  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
