@@ -15,13 +15,8 @@
   }
 }
 
-@media (pointer: coarse) {
-  .bgImage {
-    background-attachment: fixed !important;
-  }
-}
-
 .bgImage {
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
