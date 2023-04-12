@@ -1,8 +1,7 @@
 import { uid } from "uid"
 
 import horsePhoto from "../images/tours/horse.jpg"
-import scubaPhoto from '../images/tours/scuba.webp'
-
+import scubaPhoto from "../images/tours/scuba.webp"
 
 export const tours = [
   {
@@ -185,5 +184,4 @@ export const tours = [
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
- 
 ]
