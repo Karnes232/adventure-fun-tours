@@ -1,9 +1,9 @@
-import React from 'react'
-import HeroComponent from '../../components/HeroComponent/HeroComponent'
-import Layout from '../../components/layout'
-import TextComponent from '../../components/TextComponent/TextComponent'
-import { locations } from '../../data/locations'
-import LocationCardComponent from '../../components/LocationCardComponent/LocationCardComponent'
+import React from "react"
+import HeroComponent from "../../components/HeroComponent/HeroComponent"
+import Layout from "../../components/layout"
+import TextComponent from "../../components/TextComponent/TextComponent"
+import { locations } from "../../data/locations"
+import LocationCardComponent from "../../components/LocationCardComponent/LocationCardComponent"
 const index = () => {
   return (
     <Layout>
@@ -17,9 +17,7 @@ const index = () => {
         <TextComponent title="Choose your Location" className="" />
         <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
           {locations.map(location => {
-            return (
-                <LocationCardComponent location={location}/>
-            )
+            return <LocationCardComponent location={location} />
           })}
         </div>
       </main>
