@@ -1,18 +1,20 @@
 import React from "react"
-
+import TourMenu from "./TourMenu"
 import { Link } from "gatsby"
-import { links } from "../../data/links"
 
 const Links = () => {
   return (
     <>
-      {links.map(link => {
-        return (
-          <Link to={link.link} key={link.id} className="no-underline">
-            <button className="navLinks">{link.name}</button>
-          </Link>
-        )
-      })}
+      <Link to="/" className="no-underline">
+        <button className="navLinks">Home</button>
+      </Link>
+      <Link to="/contact" className="no-underline">
+        <button className="navLinks">Contact Us</button>
+      </Link>
+      <Link to='"/about"' className="no-underline">
+        <button className="navLinks">About</button>
+      </Link>
+      <TourMenu />
     </>
   )
 }

@@ -13,8 +13,8 @@ export const links = [
   },
   {
     id: uid(),
-    name: "Tours",
-    link: "/tours",
+    name: "Locations",
+    link: "/location",
   },
   {
     id: uid(),
