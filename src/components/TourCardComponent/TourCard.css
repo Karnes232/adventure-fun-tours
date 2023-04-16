@@ -6,6 +6,12 @@
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
+.location-centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
