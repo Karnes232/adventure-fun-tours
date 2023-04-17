@@ -1,5 +1,5 @@
 import React from "react"
-import { tours } from "../../data/tours"
+import { tours } from "../../data/puntacanaTours"
 import DatePickerComponent from "./DatePickerComponent"
 
 const ContactForm = () => {

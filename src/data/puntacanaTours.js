@@ -112,5 +112,4 @@ export const tours = [
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
-  
 ]

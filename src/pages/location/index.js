@@ -17,7 +17,7 @@ const index = () => {
         <TextComponent title="Choose your Location" className="" />
         <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
           {locations.map(location => {
-            return <LocationCardComponent location={location} />
+            return <LocationCardComponent location={location} my={"my-2"} />
           })}
         </div>
       </main>

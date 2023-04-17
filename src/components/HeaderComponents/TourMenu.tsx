@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { locations } from "../../data/locations"
 
 const TourMenu = () => {
-  console.log("hello")
   return (
     <>
       <Menu>

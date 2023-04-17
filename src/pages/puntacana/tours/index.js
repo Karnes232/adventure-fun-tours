@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../../../components/layout"
-import { tours } from "../../../data/tours"
+import { tours } from "../../../data/puntacanaTours"
 import TourCard from "../../../components/TourCardComponent/TourCard"
 import HeroComponent from "../../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../../components/TextComponent/TextComponent"
