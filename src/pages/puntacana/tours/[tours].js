@@ -1,6 +1,6 @@
 import React from "react"
 
-import { tours } from "../../../data/puntacanaTours"
+import { tours } from "../../../data/tours/puntacanaTours"
 
 const tour = ({ location }) => {
   const tour = tours.find(({ link }) => link === location.pathname)

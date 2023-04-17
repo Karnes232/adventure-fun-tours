@@ -1,7 +1,7 @@
 import { uid } from "uid"
 
-import horsePhoto from "../images/tours/horse.jpg"
-import scubaPhoto from "../images/tours/scuba.webp"
+import horsePhoto from "../../images/tours/horse.jpg"
+import scubaPhoto from "../../images/tours/scuba.webp"
 
 export const tours = [
   {

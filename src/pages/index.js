@@ -4,7 +4,7 @@ import HeroComponent from "../components/HeroComponent/HeroComponent"
 import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import TourCard from "../components/TourCardComponent/TourCard"
-import { tours } from "../data/puntacanaTours"
+import { tours } from "../data/tours/puntacanaTours"
 
 import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
 import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
