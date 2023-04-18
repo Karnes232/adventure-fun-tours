@@ -5,11 +5,13 @@ import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import TourCard from "../components/TourCardComponent/TourCard"
 import { puntacanaTours } from "../data/tours/puntacanaTours"
-
+import { sosuaTours } from "../data/tours/sosuaTours"
 import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
 import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
+import SwiperCarousel from "../components/TourCardComponent/SwiperCarousel"
 const IndexPage = () => {
-  const shortList = puntacanaTours.slice(0, 6)
+  const PCshortList = puntacanaTours.slice(0, 6)
+  const SOSshortList = sosuaTours.slice(0, 6)
   return (
     <Layout>
       <main>
@@ -35,14 +37,9 @@ const IndexPage = () => {
         <SwiperLocationCarousel /> {/* Small/Medium Screen */}
         <IndexLocationComponent /> {/* Large Screen */}
         <BackgroundImage page="indexLower" />
-        <div className="mt-5">
-          <TextComponent title="Our Best Tours" className="" />
-        </div>
-        <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
-          {shortList.map(tour => {
-            return <TourCard key={tour.id} tour={tour} />
-          })}
-        </div>
+        <SwiperCarousel title="Punta Cana's Best Tours" tours={PCshortList} />
+        <SwiperCarousel title="Sosua's Best Tours" tours={SOSshortList} />
+        
       </main>
     </Layout>
   )

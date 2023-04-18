@@ -10,7 +10,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -20,7 +20,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -30,7 +30,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -40,7 +40,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -50,7 +50,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -60,7 +60,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -70,7 +70,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -80,7 +80,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -90,7 +90,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -100,7 +100,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -110,7 +110,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -120,7 +120,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -130,7 +130,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -140,7 +140,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -150,7 +150,7 @@ export const puntacanaTours = [
     link: "/puntacana/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
@@ -160,9 +160,8 @@ export const puntacanaTours = [
     link: "/puntacana/tours/horse/",
     img: horsePhoto,
     price: "45",
-    location: 'Punta Cana',
+    location: "Punta Cana",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   },
-  
 ]
