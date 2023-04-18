@@ -4,12 +4,12 @@ import HeroComponent from "../components/HeroComponent/HeroComponent"
 import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import TourCard from "../components/TourCardComponent/TourCard"
-import { tours } from "../data/tours/puntacanaTours"
+import { puntacanaTours } from "../data/tours/puntacanaTours"
 
 import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
 import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
 const IndexPage = () => {
-  const shortList = tours.slice(0, 6)
+  const shortList = puntacanaTours.slice(0, 6)
   return (
     <Layout>
       <main>
@@ -32,8 +32,8 @@ const IndexPage = () => {
         <div className="mt-5">
           <TextComponent title="Our Locations" className="" />
         </div>
-        <SwiperLocationCarousel />
-        <IndexLocationComponent />
+        <SwiperLocationCarousel /> {/* Small/Medium Screen */}
+        <IndexLocationComponent /> {/* Large Screen */}
         <BackgroundImage page="indexLower" />
         <div className="mt-5">
           <TextComponent title="Our Best Tours" className="" />

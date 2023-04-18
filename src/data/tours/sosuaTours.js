@@ -10,6 +10,7 @@ export const tours = [
         link: "/sosua/tours/scuba/",
         img: scubaPhoto,
         price: "120",
+        location: 'Sosua',
         description:
           "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
       },
@@ -19,6 +20,7 @@ export const tours = [
         link: "/sosua/tours/horse/",
         img: horsePhoto,
         price: "45",
+        location: 'Sosua',
         description:
           "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
       },

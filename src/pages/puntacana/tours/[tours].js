@@ -1,9 +1,9 @@
 import React from "react"
 
-import { tours } from "../../../data/tours/puntacanaTours"
+import { puntacanaTours } from "../../../data/tours/puntacanaTours"
 
 const tour = ({ location }) => {
-  const tour = tours.find(({ link }) => link === location.pathname)
+  const tour = puntacanaTours.find(({ link }) => link === location.pathname)
   return (
     <>
       {tour ? (

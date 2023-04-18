@@ -4,9 +4,9 @@ import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
 import BackgroundImage from "../../components/HeroComponent/BackgroundImage"
 import TourCard from "../../components/TourCardComponent/TourCard"
-import { tours } from "../../data/tours/puntacanaTours"
+import { puntacanaTours } from "../../data/tours/puntacanaTours"
 const IndexPage = () => {
-  const shortList = tours.slice(0, 6)
+  const shortList = puntacanaTours.slice(0, 6)
   return (
     <Layout>
       <main>

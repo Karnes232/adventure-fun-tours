@@ -1,5 +1,5 @@
 import React from "react"
-import { tours } from "../../data/tours/puntacanaTours"
+import { puntacanaTours } from "../../data/tours/puntacanaTours"
 import DatePickerComponent from "./DatePickerComponent"
 
 const ContactForm = () => {
@@ -62,7 +62,7 @@ const ContactForm = () => {
             <option className="" value="">
               Choose a Tour:
             </option>
-            {tours.map(tour => {
+            {puntacanaTours.map(tour => {
               return (
                 <option key={tour.id} value={tour.name}>
                   {tour.name}

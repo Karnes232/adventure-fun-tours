@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../../../components/layout"
-import { tours } from "../../../data/tours/puntacanaTours"
+import { puntacanaTours } from "../../../data/tours/puntacanaTours"
 import TourCard from "../../../components/TourCardComponent/TourCard"
 import HeroComponent from "../../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../../components/TextComponent/TextComponent"
@@ -17,7 +17,7 @@ const index = () => {
         <div className="mt-[85vh]"></div>
         <TextComponent title="Choose your Tour" className="" />
         <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
-          {tours.map(tour => {
+          {puntacanaTours.map(tour => {
             return <TourCard key={tour.id} tour={tour} />
           })}
         </div>
