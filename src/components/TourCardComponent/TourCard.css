@@ -49,3 +49,8 @@
   color: white;
   transform: rotateY(180deg);
 }
+
+.flip-card-back a {
+  z-index: 10;
+  position: relative;
+}
