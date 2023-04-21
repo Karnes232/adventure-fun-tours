@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import HeroComponent from "../components/HeroComponent/HeroComponent"
 import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
-import TourCard from "../components/TourCardComponent/TourCard"
 import { puntacanaTours } from "../data/tours/puntacanaTours"
 import { sosuaTours } from "../data/tours/sosuaTours"
 import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
@@ -39,7 +38,6 @@ const IndexPage = () => {
         <BackgroundImage page="indexLower" />
         <SwiperCarousel title="Punta Cana's Best Tours" tours={PCshortList} />
         <SwiperCarousel title="Sosua's Best Tours" tours={SOSshortList} />
-        
       </main>
     </Layout>
   )

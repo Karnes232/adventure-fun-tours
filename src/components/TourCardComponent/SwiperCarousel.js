@@ -20,15 +20,15 @@ const SwiperCarousel = ({ title, tours }) => {
           centeredSlides={true}
           slidesPerView={"auto"}
           breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-        }}
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
           coverflowEffect={{
             rotate: 50,
             stretch: 0,
