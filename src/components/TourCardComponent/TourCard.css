@@ -6,10 +6,22 @@
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-@media screen and (pointer: coarse) {
-  .flip-card:hover .flip-card-inner {
-    transform: none;
+@media only screen and (min-width: 1024px) {
+  .flip-card-inner {
+    transform-style: preserve-3d;
   }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  -webkit-backface-visibility: hidden; /* Safari  */
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  transform: rotateY(180deg);
+}
 }
 
 .location-centered {
@@ -28,10 +40,7 @@
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+
 
 /* Position the front and back side */
 .flip-card-front,
@@ -56,7 +65,3 @@
   transform: rotateY(180deg);
 }
 
-.flip-card-back a {
-  z-index: 10;
-  position: relative;
-}
