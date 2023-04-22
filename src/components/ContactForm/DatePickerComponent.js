@@ -11,7 +11,9 @@ const DatePickerComponent = () => {
     setValue(newValue)
   }
   return (
-    <Datepicker
+    <>
+      <input type="hidden" name="Date" value={value} />
+      <Datepicker
       asSingle={true}
       useRange={false}
       placeholder={"Select Date"}
@@ -19,6 +21,8 @@ const DatePickerComponent = () => {
       value={value}
       onChange={handleValueChange}
     />
+    </>
+    
   )
 }
 

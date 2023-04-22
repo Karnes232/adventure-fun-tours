@@ -2,11 +2,11 @@ import { uid } from "uid"
 import scubaPhoto from "../../../images/tours/scuba.webp"
 const scuba = {
     id: uid(),
-    name: "Scuba Test",
-    link: "/puntacana/tours/scuba/",
+    name: "Scuba Sosua",
+    link: "/sosua/tours/scuba/",
     img: scubaPhoto,
     price: "120",
-    location: "Punta Cana",
+    location: "Sosua",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
 }
