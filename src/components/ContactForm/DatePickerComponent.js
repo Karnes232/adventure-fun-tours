@@ -12,7 +12,7 @@ const DatePickerComponent = () => {
   }
   return (
     <>
-      <input type="hidden" name="Date" value={value} />
+      <input type="hidden" name="Date" value={value.startDate} />
       <Datepicker
       asSingle={true}
       useRange={false}
