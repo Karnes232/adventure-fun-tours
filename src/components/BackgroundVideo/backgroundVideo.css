@@ -1,0 +1,65 @@
+.bg-video-section {
+  position: relative;
+  min-height: 40vh;
+}
+
+.bg-video-main {
+  -webkit-clip-path: polygon(0 0vh, 100% 0, 100% 40vh, 0% 100%);
+  clip-path: polygon(0 0vh, 100% 0, 100% 40vh, 0% 100%);
+}
+
+
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -4;
+  opacity: 0.5;
+  overflow: hidden;
+  filter: brightness(0.8);
+}
+
+.bg-video__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40vh;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .bg-video-courses {
+    margin-top: -10rem;
+  }
+  .bg-video-shark {
+    margin-top: -32rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bg-video-section {
+    min-height: 60vh;
+  }
+  .bg-video-main {
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 55vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 55vh, 0% 100%);
+  }
+  .bg-video-courses {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0% 100%);
+  }
+  .bg-video-sites {
+    -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+    clip-path: polygon(0 5vh, 100% 0, 100% 60vh, 0% 100%);
+  }
+  .bg-video__content {
+    height: 60vh;
+  }
+}

@@ -16,7 +16,7 @@ const locations = [
   {
     id: uid(),
     name: "Coming Soon",
-    // link: "/",
+    link: "/",
     img: tourPhoto,
   },
 ]
