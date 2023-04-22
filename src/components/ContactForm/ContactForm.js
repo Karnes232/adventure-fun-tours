@@ -1,11 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
 import locations from '../../data/locations'
 import puntacanaTours from "../../data/tours/puntacanaTours"
 import DatePickerComponent from "./DatePickerComponent"
+import LocationSelect from "./LocationSelect"
 
 const ContactForm = () => {
   const actualLocations = locations.slice(0, -1)
-  console.log(actualLocations)
+  const [tours, setTours] = useState(puntacanaTours)
+  
   return (
     <>
       <form
@@ -34,7 +36,7 @@ const ContactForm = () => {
             Full Name
           </label>
         </div>
-        <div class="relative z-0 mb-6 w-full group">
+        <div className="relative z-0 mb-6 w-full group">
           <input
             type="email"
             name="email"
@@ -50,31 +52,34 @@ const ContactForm = () => {
             Email address
           </label>
         </div>
-        <div class="relative z-0 mb-6 w-full group">
+        <>
+          <LocationSelect actualLocations={actualLocations}/>
+        </>
+        <div className="relative z-0 mb-6 w-full group">
         <label
               className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               htmlFor="tourSelect"
             >
-              Choose your Location:
+              Choose your Tour:
             </label>
           <select
             name="tourSelect"
             id="tourSelect"
-            class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
           >
-            {actualLocations.map(location => {
+            {tours.map(tour => {
               return (
-                <option key={location.id} value={location.name}>
-                  {location.name}
+                <option key={tour.id} value={tour.name}>
+                  {tour.name}
                 </option>
               )
             })}
           </select>
         </div>
-        <div class="relative z-10 mb-6 w-full group">
+        <div className="relative z-10 mb-6 w-full group">
           <DatePickerComponent />
         </div>
-        <div class="relative z-0 mb-6 w-full group">
+        <div className="relative z-0 mb-6 w-full group">
           <label
             htmlFor="message"
             className="block mb-2 text-sm font-medium text-gray-500"
@@ -85,7 +90,7 @@ const ContactForm = () => {
             id="message"
             name="message"
             rows="4"
-            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
             placeholder="Leave a comment..."
           ></textarea>
         </div>
