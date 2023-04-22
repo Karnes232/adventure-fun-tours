@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
-import locations from '../../data/locations'
+import locations from "../../data/locations"
 import puntacanaTours from "../../data/tours/puntacanaTours"
-import sosuaTours from '../../data/tours/sosuaTours'
+import sosuaTours from "../../data/tours/sosuaTours"
 import DatePickerComponent from "./DatePickerComponent"
 import LocationSelect from "./LocationSelect"
 import InfoInputs from "./InfoInputs"
@@ -9,16 +9,16 @@ import TourSelect from "./TourSelect"
 
 const ContactForm = () => {
   const actualLocations = locations.slice(0, -1)
-  const [location, setLocation] = useState('')
+  const [location, setLocation] = useState("")
   const [tours, setTours] = useState(puntacanaTours)
   useEffect(() => {
-    if (location === 'Punta Cana') {
+    if (location === "Punta Cana") {
       setTours(puntacanaTours)
-    } else if (location === 'Sosua') {
+    } else if (location === "Sosua") {
       setTours(sosuaTours)
     }
   }, [location])
-  
+
   return (
     <>
       <form
@@ -35,7 +35,10 @@ const ContactForm = () => {
           <InfoInputs />
         </>
         <>
-          <LocationSelect actualLocations={actualLocations} setLocation={setLocation}/>
+          <LocationSelect
+            actualLocations={actualLocations}
+            setLocation={setLocation}
+          />
         </>
         <>
           <TourSelect tours={tours} />

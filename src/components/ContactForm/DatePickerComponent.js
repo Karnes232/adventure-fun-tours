@@ -14,15 +14,14 @@ const DatePickerComponent = () => {
     <>
       <input type="hidden" name="Date" value={value.startDate} />
       <Datepicker
-      asSingle={true}
-      useRange={false}
-      placeholder={"Select Date"}
-      minDate={new Date()}
-      value={value}
-      onChange={handleValueChange}
-    />
+        asSingle={true}
+        useRange={false}
+        placeholder={"Select Date"}
+        minDate={new Date()}
+        value={value}
+        onChange={handleValueChange}
+      />
     </>
-    
   )
 }
 
