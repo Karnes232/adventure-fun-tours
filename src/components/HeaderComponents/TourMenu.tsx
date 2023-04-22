@@ -1,7 +1,7 @@
 import React from "react"
 import { Menu, Transition } from "@headlessui/react"
 import { Link } from "gatsby"
-import { locations } from "../../data/locations"
+import locations from "../../data/locations"
 
 const TourMenu = () => {
   return (

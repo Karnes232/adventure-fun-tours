@@ -1,6 +1,6 @@
 import React from "react"
 
-import { puntacanaTours } from "../../../data/tours/puntacanaTours"
+import puntacanaTours from "../../../data/tours/puntacanaTours"
 import Layout from "../../../components/layout"
 import HeroComponent from "../../../components/TourPageComponents/HeroComponent"
 import TextComponent from "../../../components/TextComponent/TextComponent"

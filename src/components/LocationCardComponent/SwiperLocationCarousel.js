@@ -4,7 +4,7 @@ import "swiper/css"
 import "swiper/css/effect-coverflow"
 import "swiper/css/pagination"
 import { EffectCoverflow, Pagination } from "swiper"
-import { locations } from "../../data/locations"
+import locations from "../../data/locations"
 import LocationCardComponent from "./LocationCardComponent"
 
 const SwiperLocationCarousel = () => {

@@ -2,7 +2,7 @@ import React from "react"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import Layout from "../../components/layout"
 import TextComponent from "../../components/TextComponent/TextComponent"
-import { locations } from "../../data/locations"
+import locations from "../../data/locations"
 import LocationCardComponent from "../../components/LocationCardComponent/LocationCardComponent"
 const index = () => {
   return (

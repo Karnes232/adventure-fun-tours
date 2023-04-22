@@ -1,6 +1,6 @@
 import { uid } from "uid"
 import tourPhoto from "../images/tours/scuba.webp"
-export const locations = [
+const locations = [
   {
     id: uid(),
     name: "Punta Cana",
@@ -20,3 +20,5 @@ export const locations = [
     img: tourPhoto,
   },
 ]
+
+export default locations

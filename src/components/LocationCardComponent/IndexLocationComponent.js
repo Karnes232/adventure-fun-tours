@@ -1,6 +1,6 @@
 import React from "react"
 import LocationCardComponent from "./LocationCardComponent"
-import { locations } from "../../data/locations"
+import locations from "../../data/locations"
 
 const IndexLocationComponent = () => {
   return (
