@@ -4,13 +4,13 @@ const locations = [
   {
     id: uid(),
     name: "Punta Cana",
-    link: "/puntacana/tours",
+    link: "/puntacana",
     img: tourPhoto,
   },
   {
     id: uid(),
     name: "Sosua",
-    link: "/sosua/tours",
+    link: "/sosua",
     img: tourPhoto,
   },
   {
