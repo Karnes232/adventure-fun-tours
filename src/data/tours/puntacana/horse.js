@@ -32,9 +32,13 @@ const horse = {
     "All guests must be mobile and in good physical condition",
     "Transportation may not be available from some resorts or may be subject to an additional fee",
   ],
-  duration: "8 hours (approx.)",
-  minAge: "Suitable for all ages",
-  pregnant: "No",
+  extras: {
+    duration: "8 hours (approx.)",
+    minAge: "Suitable for all ages",
+    pregnant: "No",
+    pickUp: 'Yes'
+  },
+  
   photos: [photo1, photo2, photo3],
   video: video,
 }

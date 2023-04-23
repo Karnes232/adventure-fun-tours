@@ -9,6 +9,7 @@ import BackgroundVideo from "../../../components/BackgroundVideo/BackgroundVideo
 import AvailableComponent from "../../../components/TourPageComponents/AvailableComponent"
 import IncludedComponent from "../../../components/TourPageComponents/IncludedComponent"
 import GoodInfo from "../../../components/TourPageComponents/GoodInfo"
+import ExtraInfo from "../../../components/TourPageComponents/ExtraInfo"
 const tour = ({ location }) => {
   const tour = puntacanaTours.find(({ link }) => link === location.pathname)
   return (
@@ -63,6 +64,7 @@ const tour = ({ location }) => {
           {tour.included && <IncludedComponent included={tour.included} />}
           </div>
           {tour.goodInfo && <GoodInfo goodInfo={tour.goodInfo} />}
+          {tour.extras && <ExtraInfo extras={tour}/>} 
           </div>
           {tour.video && (
             <BackgroundVideo video={tour.video} className="bg-video-courses" />
