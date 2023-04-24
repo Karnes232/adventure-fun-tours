@@ -11,7 +11,7 @@ const index = () => {
       <main>
         <HeroComponent
           page="indexMid"
-          h1="Fantastic Tours"
+          h1="Punta Cana Tours"
           p="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
         />
         <div className="mt-[85vh]"></div>

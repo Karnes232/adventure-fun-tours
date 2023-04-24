@@ -24,7 +24,8 @@ const LocationIndex = ({page, heroH1, heroP, title1, paragraph1, paragraph2, bgI
           paragraph={paragraph2}
           className=""
         />
-        <BackgroundImage page={bgImageMidPage} />
+        <div className="mt-5">
+        <BackgroundImage page={bgImageMidPage} /></div>
         <div className="mt-5">
           <TextComponent title="Our Best Tours" className="" />
         </div>

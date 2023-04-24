@@ -11,7 +11,7 @@ const Links = () => {
       <Link to="/contact" className="no-underline">
         <button className="navLinks">Contact Us</button>
       </Link>
-      <Link to='"/about"' className="no-underline">
+      <Link to="/about" className="no-underline">
         <button className="navLinks">About</button>
       </Link>
       <TourMenu />
