@@ -11,6 +11,7 @@ const scuba = {
   link: "/puntacana/tours/scuba/",
   img: scubaPhoto,
   price: "120",
+  cost: '',
   location: "Punta Cana",
   description:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",

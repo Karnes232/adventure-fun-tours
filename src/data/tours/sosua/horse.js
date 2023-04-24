@@ -11,6 +11,7 @@ const horse = {
   link: "/sosua/tours/horse/",
   img: horsePhoto,
   price: "45",
+  cost: '',
   location: "Sosua",
   description:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
