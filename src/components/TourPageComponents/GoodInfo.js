@@ -2,7 +2,7 @@ import React from 'react'
 
 const GoodInfo = ({goodInfo}) => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 basis-1/3">
       <h4 className="font-light text-2xl tracking-wider">
       Practical Information
       </h4>

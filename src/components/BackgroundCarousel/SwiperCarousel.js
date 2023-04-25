@@ -23,13 +23,13 @@ const SwiperCarousel = ({ tour }) => {
           clickable: true,
         }}
         modules={[Autoplay, EffectFade, Navigation, Pagination]}
-        className="mySwiper h-[25vh]"
+        className="mySwiper h-[25vh] md:h-[35vh] lg:h-[45vh]"
       >
         {tour.photos.map((image, index) => (
           <SwiperSlide key={index}>
             <img
               src={image}
-              className="h-[25vh] object-cover w-full"
+              className="h-[25vh] md:h-[35vh] lg:h-[45vh] object-cover w-full"
               alt={tour.name}
             />
           </SwiperSlide>

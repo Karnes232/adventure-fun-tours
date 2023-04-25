@@ -38,7 +38,7 @@ const TourPage = ({tour}) => {
             )}
           </div>
           {tour.photos && (
-            <div className="my-5">
+            <div className="my-5 max-w-6xl lg:mx-auto">
               <SwiperCarousel tour={tour} />
             </div>
           )}
@@ -57,14 +57,14 @@ const TourPage = ({tour}) => {
               paragraph={tour.tourPage.paragraph3}
             />
           )}
-          <div className="mt-5">
+          <div className="flex flex-col lg:flex-row lg:space-x-4 lg:justify-center">
           {tour.included && <IncludedComponent included={tour.included} />}
-          </div>
+          
           {tour.goodInfo && <GoodInfo goodInfo={tour.goodInfo} />}
-          {tour.extras && <ExtraInfo extras={tour.extras}/>} 
+          {tour.extras && <ExtraInfo extras={tour.extras}/>} </div>
           </div>
           {tour.video && (
-            <BackgroundVideo video={tour.video} className="bg-video-courses" />
+            <BackgroundVideo video={tour.video} className="" />
           )}
         </main>
       )}

@@ -2,7 +2,7 @@ import React from "react"
 
 const IncludedComponent = ({ included }) => {
   return (
-    <div className="">
+    <div className="mt-5 basis-1/3">
       <h4 className="font-light text-2xl tracking-wider">
         Included On Your Tour
       </h4>

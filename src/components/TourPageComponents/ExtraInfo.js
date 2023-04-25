@@ -3,7 +3,7 @@ import React from 'react'
 const ExtraInfo = ({extras}) => {
   const { duration, pickUp, minAge, pregnant } = extras
   return (
-    <div className="mt-5">
+    <div className="mt-5 basis-1/3">
         <h4 className="font-light text-2xl tracking-wider">
       Good to Know
       </h4>
