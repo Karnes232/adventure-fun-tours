@@ -8,16 +8,17 @@ const IndexPage = () => {
     <Layout>
       <LocationIndex 
       page="sosua"
-      heroH1="Explore the Dominican Republic"
+      heroH1="Explore Sosua"
       heroP="Find awesome water sports, buggies, horseback riding, and more!"
-      title1='With our experience we will serve you the best'
-      paragraph1='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!'
-      paragraph2='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!'
+      title1='A tropical paradise in the heart of the Dominican Republic'
+      paragraph1='Welcome to Sosua, a charming beach town located on the north coast of the Dominican Republic. Known for its beautiful beaches, vibrant nightlife, and rich history, Sosua is a popular destination for travelers seeking a mix of relaxation and adventure.'
+      paragraph2='One of the main draws of Sosua is its stunning beaches. The town is home to two main beaches: Playa Sosua and Playa Alicia. Both offer crystal-clear waters, white sand, and plenty of opportunities for swimming, sunbathing, and water sports such as snorkeling and scuba diving.'
+      paragraph3="But Sosua isn't just about beaches and nightlife. The town also offers plenty of opportunities for adventure and exploration. Take a catamaran tour of the coast, go horseback riding through the countryside, or explore the nearby El Choco National Park."
       bgImageMidPage='indexMid'
       shortList={shortList}
       bgImageLowPage='sosua2'
-      title3='With our experience we will serve you the best'
-      paragraph3='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!'
+      title4='Create memories that will last a lifetime!'
+      paragraph4="Whether you're seeking relaxation, adventure, or a little bit of both, Sosua has something for everyone. With its warm weather, stunning natural beauty, and vibrant culture, it's no wonder why it's one of the most popular destinations in the Caribbean. So come explore Sosua with us and create memories that will last a lifetime!"
       link='/sosua/tours'
     />
     </Layout>

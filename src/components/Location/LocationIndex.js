@@ -5,7 +5,7 @@ import BackgroundImage from '../HeroComponent/BackgroundImage'
 import TourCard from '../TourCardComponent/TourCard'
 import { Link } from 'gatsby'
 
-const LocationIndex = ({page, heroH1, heroP, title1, paragraph1, paragraph2, bgImageMidPage, shortList, bgImageLowPage, title3, paragraph3, link }) => {
+const LocationIndex = ({page, heroH1, heroP, title1, paragraph1, paragraph2, paragraph3, bgImageMidPage, shortList, bgImageLowPage, title4, paragraph4, link }) => {
     
   return (
     <main>
@@ -24,6 +24,10 @@ const LocationIndex = ({page, heroH1, heroP, title1, paragraph1, paragraph2, bgI
           paragraph={paragraph2}
           className=""
         />
+        <TextComponent
+          paragraph={paragraph3}
+          className=""
+        />
         <div className="mt-5">
         <BackgroundImage page={bgImageMidPage} /></div>
         <div className="mt-5">
@@ -37,8 +41,8 @@ const LocationIndex = ({page, heroH1, heroP, title1, paragraph1, paragraph2, bgI
         <BackgroundImage page={bgImageLowPage} />
         <div className="my-5">
           <TextComponent
-            title={title3}
-            paragraph={paragraph3}
+            title={title4}
+            paragraph={paragraph4}
             className=""
           />
         </div>
