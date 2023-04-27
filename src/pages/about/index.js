@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../../components/layout"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
-import image from "../../images/tours/horse.jpg"
+import image from "../../images/dominican6.jpg"
 const index = () => {
   return (
     <Layout>

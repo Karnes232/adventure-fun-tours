@@ -1,23 +1,27 @@
 import { uid } from "uid"
-import tourPhoto from "../images/tours/scuba.webp"
+
+import puntaCanaPhoto from "../images/location/puntaCana.jpg"
+import sosuaPhoto from "../images/location/Sosua.jpg"
+import limonPhoto from "../images/location/limon.jpg"
+
 const locations = [
   {
     id: uid(),
     name: "Punta Cana",
     link: "/puntacana",
-    img: tourPhoto,
+    img: puntaCanaPhoto,
   },
   {
     id: uid(),
     name: "Sosua",
     link: "/sosua",
-    img: tourPhoto,
+    img: sosuaPhoto,
   },
   {
     id: uid(),
     name: "Coming Soon",
     link: "/",
-    img: tourPhoto,
+    img: limonPhoto,
   },
 ]
 

@@ -3,7 +3,6 @@ import React from "react"
 
 const LocationCardComponent = ({ location, my }) => {
   const { name, link, img } = location
-  console.log(link)
   return (
     <>
       <div className={`w-[90vw] md:w-80 h-64 ${my} md:my-6 rounded-lg`}>
@@ -16,7 +15,7 @@ const LocationCardComponent = ({ location, my }) => {
                 alt={name}
               />
               <div className="absolute location-centered text-primary-color">
-                <p className="text-3xl font-semibold">{name}</p>
+                <p className="text-3xl font-semibold font-serif">{name}</p>
               </div>
             </div>
           </div>
