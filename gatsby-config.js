@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/logo.png",
+        icon: "src/images/logo-hd.png",
         name: `Adventure Fun Tours RD`,
         short_name: `Adventure Fun`,
         start_url: `/`,
