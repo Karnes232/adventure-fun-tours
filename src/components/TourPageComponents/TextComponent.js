@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 import { motion } from "framer-motion"
-const TextComponent = ({title, paragraph}) => {
+const TextComponent = ({ title, paragraph }) => {
   return (
     <div className="relative">
-        <motion.div
+      <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}

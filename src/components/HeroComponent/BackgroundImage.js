@@ -11,7 +11,6 @@ const BackgroundImage = ({ page }) => {
         </div> */}
         </div>
       </div>
-  
     </>
   )
 }

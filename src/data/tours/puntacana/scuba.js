@@ -11,7 +11,7 @@ const scuba = {
   link: "/puntacana/tours/scuba/",
   img: scubaPhoto,
   price: "120",
-  cost: '',
+  cost: "",
   location: "Punta Cana",
   description:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
@@ -37,9 +37,9 @@ const scuba = {
     duration: "8 hours (approx.)",
     minAge: "Suitable for all ages",
     pregnant: "No",
-    pickUp: 'Yes'
+    pickUp: "Yes",
   },
-  
+
   photos: [photo1, photo2, photo3],
   video: video,
 }

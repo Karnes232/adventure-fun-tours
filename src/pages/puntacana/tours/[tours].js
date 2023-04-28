@@ -7,7 +7,7 @@ const tour = ({ location }) => {
   const tour = puntacanaTours.find(({ link }) => link === location.pathname)
   return (
     <Layout>
-      <TourPage tour={tour}/>
+      <TourPage tour={tour} />
     </Layout>
   )
 }
