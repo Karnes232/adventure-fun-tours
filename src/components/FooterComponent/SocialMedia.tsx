@@ -8,7 +8,7 @@ const SocialMedia = () => {
     <div className="border-b border-gray-500 md:border-none">
       <div className="mx-8 flex justify-around py-4 md:mx-auto md:max-w-md">
         <a
-          href="https://www.facebook.com/grandbaydivecenter/"
+          href="https://www.facebook.com/adventurefuntoursdr"
           target="_blank"
           aria-label="Facebook"
           rel="noreferrer"
@@ -16,7 +16,7 @@ const SocialMedia = () => {
           <FaFacebookF className="footerIcons" />
         </a>
         <a
-          href="https://www.instagram.com/grandbayoftheseard/"
+          href="https://www.instagram.com/adventurefuntoursdr/"
           target="_blank"
           aria-label="Instagram"
           rel="noreferrer"
@@ -24,7 +24,7 @@ const SocialMedia = () => {
           <FaInstagram className="footerIcons" />
         </a>
         <a
-          href="mailto:grandbayofthesea@gmail.com"
+          href="mailto:adventurefuntours.dr@gmail.com"
           aria-label="Gmail"
           rel="noreferrer"
         >
