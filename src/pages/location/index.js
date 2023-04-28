@@ -26,3 +26,5 @@ const index = () => {
 }
 
 export default index
+
+export const Head = () => <title>Our Locations - Adventure Fun Tours</title>

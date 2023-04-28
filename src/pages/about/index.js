@@ -11,8 +11,7 @@ const index = () => {
         <div className="mt-[80vh] xl:mt-[85vh]"></div>
         <div className="max-w-6xl mx-auto space-y-4 p-4 flex flex-col md:flex-row justify-center items-center">
           <TextComponent
-            title="Title about Us"
-            paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!"
+            paragraph="Welcome to Adventure Fun Tours, your premier provider of tours and activities in the Dominican Republic. We are a locally owned and operated company, and we are passionate about sharing the natural beauty, vibrant culture, and rich history of our country with visitors from all over the world."
             className=""
           />
           <div className="w-full flex justify-center items-center mx-5 my-5">
@@ -23,15 +22,23 @@ const index = () => {
             />
           </div>
         </div>
-        <div className="max-w-6xl mx-auto space-y-4 my-5 flex flex-col md:flex-row justify-center items-center">
+        <div className="max-w-6xl mx-auto space-y-4 md:space-y-0 my-5 flex flex-col md:flex-row justify-center items-center">
           <TextComponent
-            title="Title about Us"
-            paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!"
+            paragraph="At Adventure Fun Tours, we believe that travel should be more than just a vacation - it should be an experience. That's why we offer a wide range of tours and activities that are designed to immerse you in the best that the Dominican Republic has to offer. Whether you're looking for a relaxing beach day, a thrilling adventure, or an insightful cultural experience, we have something for everyone."
             className=""
           />
           <TextComponent
-            title="Title about Us"
-            paragraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt ab at accusamus corporis voluptates qui itaque reiciendis repudiandae doloremque sapiente ducimus iusto et ex magnam. Sed molestias quibusdam dolorum, quos vitae sequi autem perspiciatis aut ab obcaecati fuga eum tempore inventore maxime!"
+            paragraph="Our team is made up of experienced professionals who are dedicated to providing exceptional service to our customers. From the moment you book your tour with us, our goal is to make your experience as smooth and enjoyable as possible. We take care of all the details, from transportation to guides to equipment, so that you can simply relax and enjoy your time in the Dominican Republic."
+            className=""
+          />
+        </div>
+        <div className="max-w-6xl mx-auto space-y-4 md:space-y-0 my-5 flex flex-col md:flex-row items-center">
+          <TextComponent
+            paragraph="We also take great pride in giving back to our community. We believe that responsible tourism is about more than just showing visitors a good time - it's about supporting local businesses, protecting the environment, and promoting cultural exchange. That's why we work with local suppliers, hire knowledgeable guides from the community, and implement eco-friendly practices in all of our operations."
+            className=""
+          />
+          <TextComponent
+            paragraph="So whether you're a first-time visitor to the Dominican Republic or a seasoned traveler, we invite you to join us for an unforgettable experience. Discover the beauty, culture, and adventure of our country with Adventure Fun Tours, your trusted partner for tours and activities in the Dominican Republic."
             className=""
           />
         </div>
@@ -41,3 +48,5 @@ const index = () => {
 }
 
 export default index
+
+export const Head = () => <title>About Us - Adventure Fun Tours</title>
