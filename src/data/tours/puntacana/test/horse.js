@@ -1,18 +1,18 @@
 import { uid } from "uid"
-import scubaPhoto from "../../../images/tours/scuba.webp"
-import photo1 from "../../../images/tours/scuba/courseCard1.webp"
-import photo2 from "../../../images/tours/scuba/courseCard2.webp"
-import photo3 from "../../../images/tours/scuba/courseCard3.webp"
+import horsePhoto from "../../../../images/tours/horse.jpg"
+import photo1 from "../../../../images/tours/scuba/courseCard1.webp"
+import photo2 from "../../../../images/tours/scuba/courseCard2.webp"
+import photo3 from "../../../../images/tours/scuba/courseCard3.webp"
 
-import video from "../../../videos/scubaHero.mp4"
-const scuba = {
+import video from "../../../../videos/scubaHero.mp4"
+const horse = {
   id: uid(),
-  name: "Scuba Sosua",
-  link: "/sosua/tours/scuba/",
-  img: scubaPhoto,
-  price: "120",
+  name: "Horseback Riding",
+  link: "/puntacana/tours/horse/",
+  img: horsePhoto,
+  price: "45",
   cost: "",
-  location: "Sosua",
+  location: "Punta Cana",
   description:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequatur voluptatem deserunt, delectus est deleniti. Illum, incidunt",
   tourPage: {
@@ -44,4 +44,4 @@ const scuba = {
   video: video,
 }
 
-export default scuba
+export default horse

@@ -1,10 +1,10 @@
 import { uid } from "uid"
-import scubaPhoto from "../../../images/tours/scuba.webp"
-import photo1 from "../../../images/tours/scuba/courseCard1.webp"
-import photo2 from "../../../images/tours/scuba/courseCard2.webp"
-import photo3 from "../../../images/tours/scuba/courseCard3.webp"
+import scubaPhoto from "../../../../images/tours/scuba.webp"
+import photo1 from "../../../../images/tours/scuba/courseCard1.webp"
+import photo2 from "../../../../images/tours/scuba/courseCard2.webp"
+import photo3 from "../../../../images/tours/scuba/courseCard3.webp"
 
-import video from "../../../videos/scubaHero.mp4"
+import video from "../../../../videos/scubaHero.mp4"
 const scuba = {
   id: uid(),
   name: "Scuba Punta Cana",

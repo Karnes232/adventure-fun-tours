@@ -1,5 +1,5 @@
-import scuba from "./puntacana/scuba"
-import horse from "./puntacana/horse"
+import scuba from "./puntacana/test/scuba"
+import horse from "./puntacana/test/horse"
 
 const puntacanaTours = [
   scuba,

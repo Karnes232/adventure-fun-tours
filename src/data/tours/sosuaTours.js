@@ -1,5 +1,5 @@
-import scuba from "./sosua/scuba"
-import horse from "./sosua/horse"
+import scuba from "./sosua/test/scuba"
+import horse from "./sosua/test/horse"
 
 const sosuaTours = [
   scuba,
