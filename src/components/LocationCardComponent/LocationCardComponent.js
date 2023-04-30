@@ -5,12 +5,12 @@ const LocationCardComponent = ({ location, my }) => {
   const { name, link, img } = location
   return (
     <>
-      <div className={`w-[90vw] md:w-80 h-64 ${my} md:my-6 rounded-lg`}>
+      <div className={`w-[90vw] md:w-80 h-64 ${my} md:my-6 rounded-2xl`}>
         <Link to={link}>
-          <div className="flip-card-inner rounded-lg">
-            <div className="flip-card-front rounded-lg">
+          <div className="flip-card-inner rounded-2xl">
+            <div className="flip-card-front rounded-2xl">
               <img
-                className="rounded-lg w-[90vw] md:w-80 h-64 object-cover brightness-[.6]"
+                className="rounded-2xl w-[90vw] md:w-80 h-64 object-cover brightness-[.6]"
                 src={img}
                 alt={name}
               />

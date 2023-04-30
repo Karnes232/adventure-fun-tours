@@ -4,6 +4,7 @@ import photo1 from "../../../../images/tours/scuba/courseCard1.webp"
 import photo2 from "../../../../images/tours/scuba/courseCard2.webp"
 import photo3 from "../../../../images/tours/scuba/courseCard3.webp"
 
+
 import video from "../../../../videos/scubaHero.mp4"
 const horse = {
   id: uid(),
