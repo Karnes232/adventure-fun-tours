@@ -1,12 +1,10 @@
 import { uid } from "uid"
-
+import video from "../../../videos/sosua/partySosua.webm"
 const mainPhoto = 'https://i.postimg.cc/gjCPscbm/party16.webp'
 const photo1 = 'https://i.postimg.cc/BQJWqzZh/party.webp'
 const photo2 = 'https://i.postimg.cc/PrygNMPd/party1.webp'
 const photo3 = 'https://i.postimg.cc/zfb6tZpf/party10.webp'
 const photo4 = 'https://i.postimg.cc/sx9tYYm9/party11.webp'
-const photo5 = 'https://i.postimg.cc/sgy2Cmby/party12.webp'
-const photo6 = 'https://i.postimg.cc/RC6h7Ncr/party13.webp'
 const photo7 = 'https://i.postimg.cc/mrLW86Jz/party14.webp'
 const photo8 = 'https://i.postimg.cc/HWRHdzcR/party15.webp'
 const photo9 = 'https://i.postimg.cc/Hn7qrGcK/party17.webp'
@@ -32,7 +30,7 @@ const photo28 = 'https://i.postimg.cc/J0WfH6Nz/party8.webp'
 const photo29 = 'https://i.postimg.cc/wxLHxJXB/party9.webp'
 
 
-// import video from "../../../videos/somelink"
+
 const partyBoat = {
   id: uid(),
   name: "Party Boat",
@@ -64,7 +62,7 @@ const partyBoat = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21, photo22, photo23, photo24, photo25, photo26, photo27, photo28, photo29],
+  photos: [photo1, photo2, photo3, photo4, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21, photo22, photo23, photo24, photo25, photo26, photo27, photo28, photo29],
   video: video,
 }
 export default partyBoat
