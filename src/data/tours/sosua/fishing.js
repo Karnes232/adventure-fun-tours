@@ -1,15 +1,15 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
+const mainPhoto = 'https://i.postimg.cc/rpLcrNSs/fishing1.webp'
+const photo1 = 'https://i.postimg.cc/7LM4MJVV/fishing.webp'
+const photo2 = 'https://i.postimg.cc/Fs8h94zj/fishing2.webp'
+const photo3 = 'https://i.postimg.cc/dVCw3xZg/fishing3.webp'
 
 // import video from "../../../videos/somelink"
 const fishing = {
   id: uid(),
   name: "Fishing",
-  location: "",
-  link: "",
+  location: "Sosua",
+  link: "/sosua/tours/fishing/",
   img: mainPhoto,
   price: "",
   cost: "",
@@ -36,7 +36,7 @@ const fishing = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3],
+  photos: [photo1, photo2, photo3, mainPhoto],
   video: video,
 }
 export default fishing

@@ -1,15 +1,43 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
+
+const mainPhoto = 'https://i.postimg.cc/gjCPscbm/party16.webp'
+const photo1 = 'https://i.postimg.cc/BQJWqzZh/party.webp'
+const photo2 = 'https://i.postimg.cc/PrygNMPd/party1.webp'
+const photo3 = 'https://i.postimg.cc/zfb6tZpf/party10.webp'
+const photo4 = 'https://i.postimg.cc/sx9tYYm9/party11.webp'
+const photo5 = 'https://i.postimg.cc/sgy2Cmby/party12.webp'
+const photo6 = 'https://i.postimg.cc/RC6h7Ncr/party13.webp'
+const photo7 = 'https://i.postimg.cc/mrLW86Jz/party14.webp'
+const photo8 = 'https://i.postimg.cc/HWRHdzcR/party15.webp'
+const photo9 = 'https://i.postimg.cc/Hn7qrGcK/party17.webp'
+const photo10 = 'https://i.postimg.cc/XJhMNNJd/party18.webp'
+const photo11 = 'https://i.postimg.cc/HxjDC8pT/party19.webp'
+const photo12 = 'https://i.postimg.cc/nhL6mQDB/party2.webp'
+const photo13 = 'https://i.postimg.cc/Fzd40dqT/party20.webp'
+const photo14 = 'https://i.postimg.cc/K8y2gY55/party21.webp'
+const photo15 = 'https://i.postimg.cc/cLqsMhdw/party22.webp'
+const photo16 = 'https://i.postimg.cc/KYfxbyBD/party23.webp'
+const photo17 = 'https://i.postimg.cc/MTrwcbsc/party24.webp'
+const photo18 = 'https://i.postimg.cc/0yp9tSN3/party25.webp'
+const photo19 = 'https://i.postimg.cc/PqTT0qpq/party26.webp'
+const photo20 = 'https://i.postimg.cc/WpHptjK9/party27.webp'
+const photo21 = 'https://i.postimg.cc/3Rw7JbZ5/party28.webp'
+const photo22 = 'https://i.postimg.cc/9z5vTxyf/party29.webp'
+const photo23 = 'https://i.postimg.cc/FHnwVsyq/party3.webp'
+const photo24 = 'https://i.postimg.cc/yYhVj9xG/party4.webp'
+const photo25 = 'https://i.postimg.cc/G2Y02wsf/party5.webp'
+const photo26 = 'https://i.postimg.cc/j5y9THp0/party6.webp'
+const photo27 = 'https://i.postimg.cc/fL0s9S1B/party7.webp'
+const photo28 = 'https://i.postimg.cc/J0WfH6Nz/party8.webp'
+const photo29 = 'https://i.postimg.cc/wxLHxJXB/party9.webp'
+
 
 // import video from "../../../videos/somelink"
 const partyBoat = {
   id: uid(),
   name: "Party Boat",
-  location: "",
-  link: "",
+  location: "Sosua",
+  link: "/sosua/tours/party/",
   img: mainPhoto,
   price: "",
   cost: "",
@@ -36,7 +64,7 @@ const partyBoat = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3],
+  photos: [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21, photo22, photo23, photo24, photo25, photo26, photo27, photo28, photo29],
   video: video,
 }
 export default partyBoat
