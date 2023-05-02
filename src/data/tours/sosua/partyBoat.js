@@ -1,5 +1,5 @@
 import { uid } from "uid"
-import video from "../../../videos/sosua/partySosua.webm"
+import video from "../../../videos/sosua/partySosua.mp4"
 const mainPhoto = 'https://i.postimg.cc/gjCPscbm/party16.webp'
 const photo1 = 'https://i.postimg.cc/BQJWqzZh/party.webp'
 const photo2 = 'https://i.postimg.cc/PrygNMPd/party1.webp'
