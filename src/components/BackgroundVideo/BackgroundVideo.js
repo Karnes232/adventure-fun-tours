@@ -12,7 +12,7 @@ const BackgroundVideo = ({ video, className }) => {
           playsInline
           src={video}
         >
-          <source src={video} type="video/mp4" />
+          <source src={video} type="video/webm" />
           Your device does not support playing 'video/mp4' videos
         </video>
       </div>
