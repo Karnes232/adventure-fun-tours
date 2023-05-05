@@ -1,6 +1,6 @@
 import scuba from "./sosua/test/scuba"
 import horse from "./sosua/test/horse"
-import party from './sosua/partyBoat'
+import party from "./sosua/partyBoat"
 
 const sosuaTours = [
   party,

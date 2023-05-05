@@ -6,13 +6,13 @@ import { uid } from "uid"
 
 // import video from "../../../videos/somelink"
 
-const mainPhoto = 'https://i.postimg.cc/7LSWbsDz/taiguey7.webp'
-const photo1 = 'https://i.postimg.cc/Qtsn7Qxy/taiguey1.webp'
-const photo2 = 'https://i.postimg.cc/hvtyyKm8/taiguey2.webp'
-const photo3 = 'https://i.postimg.cc/brV64407/taiguey3.webp'
-const photo4 = 'https://i.postimg.cc/fLKqfVVT/taiguey4.webp'
-const photo5 = 'https://i.postimg.cc/m2hp72BB/taiguey5.webp'
-const photo6 = 'https://i.postimg.cc/XNsDZyMs/taiguey6.webp'
+const mainPhoto = "https://i.postimg.cc/7LSWbsDz/taiguey7.webp"
+const photo1 = "https://i.postimg.cc/Qtsn7Qxy/taiguey1.webp"
+const photo2 = "https://i.postimg.cc/hvtyyKm8/taiguey2.webp"
+const photo3 = "https://i.postimg.cc/brV64407/taiguey3.webp"
+const photo4 = "https://i.postimg.cc/fLKqfVVT/taiguey4.webp"
+const photo5 = "https://i.postimg.cc/m2hp72BB/taiguey5.webp"
+const photo6 = "https://i.postimg.cc/XNsDZyMs/taiguey6.webp"
 
 const partyBoat = {
   id: uid(),

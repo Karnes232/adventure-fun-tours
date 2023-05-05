@@ -1,8 +1,8 @@
 import { uid } from "uid"
-const mainPhoto = 'https://i.postimg.cc/rpLcrNSs/fishing1.webp'
-const photo1 = 'https://i.postimg.cc/7LM4MJVV/fishing.webp'
-const photo2 = 'https://i.postimg.cc/Fs8h94zj/fishing2.webp'
-const photo3 = 'https://i.postimg.cc/dVCw3xZg/fishing3.webp'
+const mainPhoto = "https://i.postimg.cc/rpLcrNSs/fishing1.webp"
+const photo1 = "https://i.postimg.cc/7LM4MJVV/fishing.webp"
+const photo2 = "https://i.postimg.cc/Fs8h94zj/fishing2.webp"
+const photo3 = "https://i.postimg.cc/dVCw3xZg/fishing3.webp"
 
 // import video from "../../../videos/somelink"
 const fishing = {

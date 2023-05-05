@@ -1,13 +1,13 @@
 import { uid } from "uid"
-const mainPhoto = 'https://i.postimg.cc/pXKWDGpk/catalina2.webp'
-const photo1 = 'https://i.postimg.cc/HjDNYtmk/catalina1.webp'
-const photo2 = 'https://i.postimg.cc/7hf4G9j1/catalina3.webp'
-const photo3 = 'https://i.postimg.cc/1zsZcsL3/catalina4.webp'
-const photo4 = 'https://i.postimg.cc/nLGp6Cvm/catalina5.webp'
-const photo5 = 'https://i.postimg.cc/g29pjvsR/catalina6.webp'
-const photo6 = 'https://i.postimg.cc/sXfsyscN/catalina7.webp'
-const photo7 = 'https://i.postimg.cc/Y0ZH1gw5/catalina8.webp'
-const photo8 = 'https://i.postimg.cc/VL01z7qm/catalina9.webp'
+const mainPhoto = "https://i.postimg.cc/pXKWDGpk/catalina2.webp"
+const photo1 = "https://i.postimg.cc/HjDNYtmk/catalina1.webp"
+const photo2 = "https://i.postimg.cc/7hf4G9j1/catalina3.webp"
+const photo3 = "https://i.postimg.cc/1zsZcsL3/catalina4.webp"
+const photo4 = "https://i.postimg.cc/nLGp6Cvm/catalina5.webp"
+const photo5 = "https://i.postimg.cc/g29pjvsR/catalina6.webp"
+const photo6 = "https://i.postimg.cc/sXfsyscN/catalina7.webp"
+const photo7 = "https://i.postimg.cc/Y0ZH1gw5/catalina8.webp"
+const photo8 = "https://i.postimg.cc/VL01z7qm/catalina9.webp"
 
 // import video from "../../../videos/somelink"
 const catalinaDiving = {
@@ -41,7 +41,17 @@ const catalinaDiving = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, mainPhoto],
+  photos: [
+    photo1,
+    photo2,
+    photo3,
+    photo4,
+    photo5,
+    photo6,
+    photo7,
+    photo8,
+    mainPhoto,
+  ],
   video: video,
 }
 export default catalinaDiving
