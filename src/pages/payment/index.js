@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import Layout from "../../components/layout"
 
-const index = () => {
+const Index = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [location, setLocation] = useState('')
@@ -9,8 +9,9 @@ const index = () => {
   const [newDate, setNewDate] = useState('')
   const [guests, setGuests] = useState('')
   const [deposit, setDeposit] = useState('')
-  const options = {year: 'numeric', month: 'long', day: 'numeric' };
+  
   useEffect(() => {
+    const options = {year: 'numeric', month: 'long', day: 'numeric' };
     const searchParams = new URLSearchParams(document.location.search)
     setName(searchParams.get('name'))
     setEmail(searchParams.get("email"))
@@ -41,4 +42,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
