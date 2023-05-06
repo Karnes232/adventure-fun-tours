@@ -11,8 +11,8 @@ const Create = () => {
       <main className="mt-28 md:mt-32 xl:mt-40">
         <form
           name="payment"
-          method="POST"
-          action="/payment"
+          method="GET"
+          action="/payment/"
           id="payment"
           className="w-64 md:w-full max-w-md flex flex-col justify-center items-center mx-auto my-5"
        
