@@ -14,7 +14,7 @@ const index = () => {
     const searchParams = new URLSearchParams(document.location.search)
     setName(searchParams.get('name'))
     setEmail(searchParams.get("email"))
-    setLocatin(searchParams.get("location"))
+    setLocation(searchParams.get("location"))
     setExcursion(searchParams.get("excursion"))
     const date = searchParams.get("Date")
     setNewDate(new Date(date).toLocaleDateString("en-US", options))
