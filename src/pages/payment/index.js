@@ -1,17 +1,28 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Layout from "../../components/layout"
 
 const index = () => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [location, setLocation] = useState('')
+  const [excursion, setExcursion] = useState('')
+  const [newDate, setNewDate] = useState('')
+  const [guests, setGuests] = useState('')
+  const [deposit, setDeposit] = useState('')
   const options = {year: 'numeric', month: 'long', day: 'numeric' };
-  const searchParams = new URLSearchParams(document.location.search)
-  const name = searchParams.get('name')
-  const email = searchParams.get("email")
-  const location = searchParams.get("location")
-  const excursion = searchParams.get("excursion")
-  const date = searchParams.get("Date")
-  const newDate = new Date(date).toLocaleDateString("en-US", options)
-  const guests = searchParams.get("guests")
-  const deposit = searchParams.get("deposit")
+  useEffect(() => {
+    const searchParams = new URLSearchParams(document.location.search)
+    setName(searchParams.get('name'))
+    setEmail(searchParams.get("email"))
+    setLocatin(searchParams.get("location"))
+    setExcursion(searchParams.get("excursion"))
+    const date = searchParams.get("Date")
+    setNewDate(new Date(date).toLocaleDateString("en-US", options))
+    setGuests(searchParams.get("guests"))
+    setDeposit(searchParams.get("deposit"))
+  }, [])
+  
+ 
 
   return (
     <Layout>
