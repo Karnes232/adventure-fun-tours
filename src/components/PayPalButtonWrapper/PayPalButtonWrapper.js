@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js"
 
-const PayPalButtonWrapper = ({ currency, showSpinner, amount }) => {
+const PayPalButtonWrapper = ({ currency, showSpinner, amount, balance, excursion }) => {
   const style = { layout: "vertical", shape: "pill" }
-
   const [{ options, isPending }, dispatch] = usePayPalScriptReducer()
 
   useEffect(() => {
@@ -40,13 +39,15 @@ const PayPalButtonWrapper = ({ currency, showSpinner, amount }) => {
               },
             })
             .then(orderId => {
-              // Your code here after create the order
               return orderId
             })
         }}
         onApprove={function (data, actions) {
-          return actions.order.capture().then(function () {
-            // Your code here after capture the order
+          return actions.order.capture().then(function (details) {
+            const firstName = details.payer.name.given_name
+            const lastName = details.payer.name.surname
+            const deposit = details.purchase_units[0].amount.value
+            window.location.href = `http://localhost:8000/thankyou/?firstname=${firstName}&lastname=${lastName}&depost=${deposit}&balance=${balance}&excursion=${excursion}`
           })
         }}
       />

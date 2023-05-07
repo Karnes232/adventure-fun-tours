@@ -29,7 +29,7 @@ const Index = () => {
   return (
     <Layout>
       <main className="mt-28 md:mt-32 xl:mt-40">
-        <div>
+        <div className="min-h-[calc(100vh-7rem)] md:min-h-[calc(100vh-8rem)] xl:min-h-[calc(100vh-10rem)]">
           <div className="absolute top-0 w-full h-[100vh]">
             <div className="min-h-screen min-w-full bg-center bg-no-repeat bg-cover paymentImage">
               <div className="hero-text flex flex-col justify-center items-center text-primary-color w-11/12 md:w-9/12 lg:w-6/12 xl:w-4/12">
@@ -57,13 +57,13 @@ const Index = () => {
                     Balance: ${balance}
                   </p>
                 )}
-                <CustomPayPal price={deposit} />
+                <CustomPayPal price={deposit} balance={balance} excursion={excursion} />
               </div>
             </div>
           </div>
         </div>
       </main>
-      <div className="pb-[86vh]"></div>
+      {/* <div className="pb-[86vh] md:pb-[89vh] lg:pb-[83vh]"></div> */}
     </Layout>
   )
 }
