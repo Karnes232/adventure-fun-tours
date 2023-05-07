@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js"
 
 const PayPalButtonWrapper = ({
@@ -10,7 +10,7 @@ const PayPalButtonWrapper = ({
 }) => {
   const style = { layout: "vertical", shape: "pill" }
   const [{ options, isPending }, dispatch] = usePayPalScriptReducer()
-
+  const [host, setHost] = useState("")
   useEffect(() => {
     dispatch({
       type: "resetOptions",
@@ -19,6 +19,7 @@ const PayPalButtonWrapper = ({
         currency: currency,
       },
     })
+    setHost(window.location.origin)
   }, [currency, showSpinner])
 
   return (
@@ -53,7 +54,7 @@ const PayPalButtonWrapper = ({
             const firstName = details.payer.name.given_name
             const lastName = details.payer.name.surname
             const deposit = details.purchase_units[0].amount.value
-            window.location.href = `http://localhost:8000/thankyou/?firstname=${firstName}&lastname=${lastName}&deposit=${deposit}&balance=${balance}&excursion=${excursion}`
+            window.location.href = `${host}/thankyou/?firstname=${firstName}&lastname=${lastName}&deposit=${deposit}&balance=${balance}&excursion=${excursion}`
           })
         }}
       />
