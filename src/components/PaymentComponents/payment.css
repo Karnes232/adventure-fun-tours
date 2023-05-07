@@ -1,0 +1,8 @@
+.paymentImage {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.53),
+      rgba(245, 246, 252, 0.52)
+    ),
+    url("../../images/dominican6.jpg");
+}
