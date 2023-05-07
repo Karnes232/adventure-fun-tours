@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import { FaFacebookF, FaInstagram } from "react-icons/fa"
 import { GrMail } from "react-icons/gr"
 

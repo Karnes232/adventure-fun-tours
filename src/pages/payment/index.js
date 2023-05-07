@@ -57,7 +57,11 @@ const Index = () => {
                     Balance: ${balance}
                   </p>
                 )}
-                <CustomPayPal price={deposit} balance={balance} excursion={excursion} />
+                <CustomPayPal
+                  price={deposit}
+                  balance={balance}
+                  excursion={excursion}
+                />
               </div>
             </div>
           </div>

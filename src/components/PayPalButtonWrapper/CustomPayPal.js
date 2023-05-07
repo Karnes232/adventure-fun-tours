@@ -2,8 +2,10 @@ import React from "react"
 import { PayPalScriptProvider } from "@paypal/react-paypal-js"
 import PayPalButtonWrapper from "../PayPalButtonWrapper/PayPalButtonWrapper"
 
-const liveId = "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
-const sandBox = "AWKpOxlq063t4e3-YvGIHBWohFbzZ_o0Y1M2juHc6EaAr5iK_UfOAEKb_YxhdpRvC5uu_Sj444MyUzmZ"
+const liveId =
+  "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
+const sandBox =
+  "AWKpOxlq063t4e3-YvGIHBWohFbzZ_o0Y1M2juHc6EaAr5iK_UfOAEKb_YxhdpRvC5uu_Sj444MyUzmZ"
 
 const CustomPayPal = ({ price, balance, excursion }) => {
   const currency = "USD"
@@ -11,8 +13,7 @@ const CustomPayPal = ({ price, balance, excursion }) => {
     <div className="flex justify-center">
       <PayPalScriptProvider
         options={{
-          "client-id":
-          sandBox,
+          "client-id": sandBox,
           components: "buttons",
           currency: "USD",
         }}
@@ -21,7 +22,8 @@ const CustomPayPal = ({ price, balance, excursion }) => {
           currency={currency}
           showSpinner={false}
           amount={price}
-          balance={balance} excursion={excursion}
+          balance={balance}
+          excursion={excursion}
         />
       </PayPalScriptProvider>
     </div>

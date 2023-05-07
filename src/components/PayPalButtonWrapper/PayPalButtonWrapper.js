@@ -1,7 +1,13 @@
 import React, { useEffect } from "react"
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js"
 
-const PayPalButtonWrapper = ({ currency, showSpinner, amount, balance, excursion }) => {
+const PayPalButtonWrapper = ({
+  currency,
+  showSpinner,
+  amount,
+  balance,
+  excursion,
+}) => {
   const style = { layout: "vertical", shape: "pill" }
   const [{ options, isPending }, dispatch] = usePayPalScriptReducer()
 
@@ -47,7 +53,7 @@ const PayPalButtonWrapper = ({ currency, showSpinner, amount, balance, excursion
             const firstName = details.payer.name.given_name
             const lastName = details.payer.name.surname
             const deposit = details.purchase_units[0].amount.value
-            window.location.href = `http://localhost:8000/thankyou/?firstname=${firstName}&lastname=${lastName}&depost=${deposit}&balance=${balance}&excursion=${excursion}`
+            window.location.href = `http://localhost:8000/thankyou/?firstname=${firstName}&lastname=${lastName}&deposit=${deposit}&balance=${balance}&excursion=${excursion}`
           })
         }}
       />
