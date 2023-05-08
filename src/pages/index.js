@@ -16,21 +16,21 @@ const IndexPage = () => {
       <main>
         <HeroComponent
           page="index"
-          h1="Explore the Dominican Republic"
+          h1="Explore the  Republic"
           p="Find awesome water sports, buggies, horseback riding, and more!"
         />
         <div className="mt-[85vh]"></div>
         <TextComponent
-          title="Welcome to the Dominican Republic"
-          paragraph="A beautiful island nation located in the Caribbean. With its stunning natural beauty, rich history, and vibrant culture, the Dominican Republic is a popular destination for travelers from around the world."
+          title="Welcome to the  Republic"
+          paragraph="A beautiful island nation located in the Caribbean. With its stunning natural beauty, rich history, and vibrant culture, the  Republic is a popular destination for travelers from around the world."
           className=""
         />
         <TextComponent
-          paragraph="With so much to see and do in the Dominican Republic, there are a wide range of tours available to suit every taste and interest. Whether you're looking to explore the country's history and culture, soak up the sun on its beautiful beaches, or get your adrenaline pumping with adventure activities, there's a tour for you."
+          paragraph="With so much to see and do in the  Republic, there are a wide range of tours available to suit every taste and interest. Whether you're looking to explore the country's history and culture, soak up the sun on its beautiful beaches, or get your adrenaline pumping with adventure activities, there's a tour for you."
           className=""
         />
         <TextComponent
-          paragraph="One of the main draws of the Dominican Republic is its beaches. The country boasts over 1,000 miles of coastline, with some of the most popular beaches located in Punta Cana, Sosua, and Samana. The beaches offer crystal-clear waters, soft sand, and plenty of opportunities for water sports such as snorkeling, scuba diving, and surfing."
+          paragraph="One of the main draws of the  Republic is its beaches. The country boasts over 1,000 miles of coastline, with some of the most popular beaches located in Punta Cana, Sosua, and Samana. The beaches offer crystal-clear waters, soft sand, and plenty of opportunities for water sports such as snorkeling, scuba diving, and surfing."
           className=""
         />
         <div className="mt-5"></div>
@@ -45,7 +45,7 @@ const IndexPage = () => {
         <SwiperCarousel title="Sosua's Best Tours" tours={SOSshortList} />
         <TextComponent
           title="Create memories that will last a lifetime!"
-          paragraph="No matter what your interests, taking a tour in the Dominican Republic is a great way to make the most of your visit. With knowledgeable guides, comfortable transportation, and carefully planned itineraries, you can sit back, relax, and enjoy all that this amazing destination has to offer. So book your tour today and start exploring the Dominican Republic!"
+          paragraph="No matter what your interests, taking a tour in the  Republic is a great way to make the most of your visit. With knowledgeable guides, comfortable transportation, and carefully planned itineraries, you can sit back, relax, and enjoy all that this amazing destination has to offer. So book your tour today and start exploring the  Republic!"
           className=""
         />
         <div className="mb-5"></div>

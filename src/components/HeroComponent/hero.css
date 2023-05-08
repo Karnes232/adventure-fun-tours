@@ -36,7 +36,7 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/dominican2.jpg");
+    url("../../images/dominican2.webp");
 }
 
 .puntaCana {
@@ -54,7 +54,7 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/dominican5.jpg");
+    url("../../images/dominican5.webp");
 }
 
 .indexMid {
@@ -63,7 +63,7 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/background-index.jpg");
+    url("../../images/background-index.webp");
 }
 
 .indexLower {
@@ -72,7 +72,7 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/background-index3.jpg");
+    url("../../images/background-index3.webp");
 }
 
 .index {
@@ -81,7 +81,7 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/background-index2.jpg");
+    url("../../images/background-index2.webp");
 }
 
 .hero-text {

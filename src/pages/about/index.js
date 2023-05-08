@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../../components/layout"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
-import image from "../../images/dominican6.jpg"
+import image from "../../images/dominican6.webp"
 const index = () => {
   return (
     <Layout>
@@ -11,7 +11,7 @@ const index = () => {
         <div className="mt-[80vh] xl:mt-[85vh]"></div>
         <div className="max-w-6xl mx-auto space-y-4 p-4 flex flex-col md:flex-row justify-center items-center">
           <TextComponent
-            paragraph="Welcome to Adventure Fun Tours, your premier provider of tours and activities in the Dominican Republic. We are a locally owned and operated company, and we are passionate about sharing the natural beauty, vibrant culture, and rich history of our country with visitors from all over the world."
+            paragraph="Welcome to Adventure Fun Tours, your premier provider of tours and activities in the  Republic. We are a locally owned and operated company, and we are passionate about sharing the natural beauty, vibrant culture, and rich history of our country with visitors from all over the world."
             className=""
           />
           <div className="w-full flex justify-center items-center mx-5 my-5">
@@ -24,11 +24,11 @@ const index = () => {
         </div>
         <div className="max-w-6xl mx-auto space-y-4 md:space-y-0 my-5 flex flex-col md:flex-row justify-center items-center">
           <TextComponent
-            paragraph="At Adventure Fun Tours, we believe that travel should be more than just a vacation - it should be an experience. That's why we offer a wide range of tours and activities that are designed to immerse you in the best that the Dominican Republic has to offer. Whether you're looking for a relaxing beach day, a thrilling adventure, or an insightful cultural experience, we have something for everyone."
+            paragraph="At Adventure Fun Tours, we believe that travel should be more than just a vacation - it should be an experience. That's why we offer a wide range of tours and activities that are designed to immerse you in the best that the  Republic has to offer. Whether you're looking for a relaxing beach day, a thrilling adventure, or an insightful cultural experience, we have something for everyone."
             className=""
           />
           <TextComponent
-            paragraph="Our team is made up of experienced professionals who are dedicated to providing exceptional service to our customers. From the moment you book your tour with us, our goal is to make your experience as smooth and enjoyable as possible. We take care of all the details, from transportation to guides to equipment, so that you can simply relax and enjoy your time in the Dominican Republic."
+            paragraph="Our team is made up of experienced professionals who are dedicated to providing exceptional service to our customers. From the moment you book your tour with us, our goal is to make your experience as smooth and enjoyable as possible. We take care of all the details, from transportation to guides to equipment, so that you can simply relax and enjoy your time in the  Republic."
             className=""
           />
         </div>
@@ -38,7 +38,7 @@ const index = () => {
             className=""
           />
           <TextComponent
-            paragraph="So whether you're a first-time visitor to the Dominican Republic or a seasoned traveler, we invite you to join us for an unforgettable experience. Discover the beauty, culture, and adventure of our country with Adventure Fun Tours, your trusted partner for tours and activities in the Dominican Republic."
+            paragraph="So whether you're a first-time visitor to the  Republic or a seasoned traveler, we invite you to join us for an unforgettable experience. Discover the beauty, culture, and adventure of our country with Adventure Fun Tours, your trusted partner for tours and activities in the  Republic."
             className=""
           />
         </div>
