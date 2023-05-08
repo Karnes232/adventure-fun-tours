@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { Suspense } from "react"
 import Layout from "../components/layout"
 import HeroComponent from "../components/HeroComponent/HeroComponent"
 import TextComponent from "../components/TextComponent/TextComponent"
@@ -7,7 +7,12 @@ import puntacanaTours from "../data/tours/puntacanaTours"
 import sosuaTours from "../data/tours/sosuaTours"
 import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
 import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
-import SwiperCarousel from "../components/TourCardComponent/SwiperCarousel"
+//import SwiperCarousel from "../components/TourCardComponent/SwiperCarousel"
+
+const SwiperCarousel = React.lazy(() =>
+  import("../components/TourCardComponent/SwiperCarousel")
+)
+
 const IndexPage = () => {
   const PCshortList = puntacanaTours.slice(0, 6)
   const SOSshortList = sosuaTours.slice(0, 6)
@@ -38,11 +43,21 @@ const IndexPage = () => {
         <div className="mt-5">
           <TextComponent title="Our Locations" className="" />
         </div>
-        <SwiperLocationCarousel /> {/* Small/Medium Screen */}
-        <IndexLocationComponent /> {/* Large Screen */}
+        <Suspense fallback={<div>Loading...</div>}>
+          <SwiperLocationCarousel /> {/* Small/Medium Screen */}
+        </Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
+          <IndexLocationComponent /> {/* Large Screen */}
+        </Suspense>
+
         <BackgroundImage page="indexLower" />
-        <SwiperCarousel title="Punta Cana's Best Tours" tours={PCshortList} />
-        <SwiperCarousel title="Sosua's Best Tours" tours={SOSshortList} />
+        <Suspense fallback={<div>Loading...</div>}>
+          <SwiperCarousel title="Punta Cana's Best Tours" tours={PCshortList} />
+        </Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
+          <SwiperCarousel title="Sosua's Best Tours" tours={SOSshortList} />
+        </Suspense>
+
         <TextComponent
           title="Create memories that will last a lifetime!"
           paragraph="No matter what your interests, taking a tour in the  Republic is a great way to make the most of your visit. With knowledgeable guides, comfortable transportation, and carefully planned itineraries, you can sit back, relax, and enjoy all that this amazing destination has to offer. So book your tour today and start exploring the  Republic!"
