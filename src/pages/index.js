@@ -5,10 +5,16 @@ import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import puntacanaTours from "../data/tours/puntacanaTours"
 import sosuaTours from "../data/tours/sosuaTours"
-import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
-import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
+//import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
+//import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
 //import SwiperCarousel from "../components/TourCardComponent/SwiperCarousel"
 
+const SwiperLocationCarousel = React.lazy(() =>
+  import("../components/LocationCardComponent/SwiperLocationCarousel")
+)
+const IndexLocationComponent = React.lazy(() =>
+  import("../components/LocationCardComponent/IndexLocationComponent")
+)
 const SwiperCarousel = React.lazy(() =>
   import("../components/TourCardComponent/SwiperCarousel")
 )
