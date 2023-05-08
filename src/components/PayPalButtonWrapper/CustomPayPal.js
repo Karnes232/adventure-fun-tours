@@ -10,7 +10,7 @@ const sandBox =
 const CustomPayPal = ({ price, balance, excursion }) => {
   const currency = "USD"
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center md:w-80 xl:w-96">
       <PayPalScriptProvider
         options={{
           "client-id": sandBox,

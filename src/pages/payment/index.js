@@ -32,14 +32,14 @@ const Index = () => {
         <div className="min-h-[calc(100vh-7rem)] md:min-h-[calc(100vh-8rem)] xl:min-h-[calc(100vh-10rem)]">
           <div className="absolute top-0 w-full h-[100vh]">
             <div className="min-h-screen min-w-full bg-center bg-no-repeat bg-cover paymentImage">
-               <div className="hero-text flex flex-col justify-center items-center text-primary-color w-11/12 md:w-9/12 lg:w-6/12 xl:w-4/12">
+               <div className="hero-text flex flex-col justify-center items-center text-primary-color w-11/12 md:w-9/12 lg:w-6/12 xl:w-4/12  md:text-lg">
                
-                {name && <p className="text-2xl font-serif mb-2">{name}</p>}
-                <div className="w-full mt-2 xl:mt-6 p-2 xl:p-4 bg-white border border-gray-200 rounded-lg shadow flex justify-between">
-                  <p className="font-normal xl:text-lg text-gray-500">
+                {name && <p className="text-2xl md:text-4xl font-serif mb-2">{name}</p>}
+                <div className="w-full mt-2 xl:mt-6 xl:mb-3 p-2 xl:p-4 bg-white border border-gray-200 rounded-lg shadow flex justify-between">
+                  <p className="font-normal text-gray-500">
                     {excursion}
                   </p>
-                  <p className="font-normal xl:text-lg text-gray-500">
+                  <p className="font-normal text-gray-500">
                     ${totalPrice.toFixed(2)}
                   </p>
                 </div>
@@ -59,7 +59,7 @@ const Index = () => {
                   <p className="mr-8 font-normal">Deposit:</p>
                   <p className="font-normal w-28 text-right">${parseFloat(deposit).toFixed(2)}</p>
                 </div>
-                <div className="w-full mb-2 p-1 flex justify-end">
+                <div className="w-full mb-2 xl:mb-5 p-1 flex justify-end">
                   <p className="mr-8 font-normal">Remaining Balance:</p>
                   <p className="font-normal w-28 text-right">
                     ${parseFloat(balance).toFixed(2)}
