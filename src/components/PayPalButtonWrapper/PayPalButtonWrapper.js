@@ -26,7 +26,7 @@ const PayPalButtonWrapper = ({
     <>
       {showSpinner && isPending && <div className="spinner" />}
       <PayPalButtons
-      className="w-full"
+        className="w-full"
         style={style}
         disabled={false}
         forceReRender={[amount, currency, style]}

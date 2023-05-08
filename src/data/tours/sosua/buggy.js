@@ -1,10 +1,16 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
+import video from "../../../videos/sosua/sosua-buggie.mp4"
+const mainPhoto = "https://i.postimg.cc/Dy5Wxp9G/Sosua-Buggie10.webp"
+const photo1 = "https://i.postimg.cc/HnzLPjhm/Sosua-Buggie.webp"
+const photo2 = "https://i.postimg.cc/wMgvVDFF/Sosua-Buggie2.webp"
+const photo3 = "https://i.postimg.cc/FRjz3Tb7/Sosua-Buggie3.webp"
+const photo4 = "https://i.postimg.cc/nhPXJjcc/Sosua-Buggie4.webp"
+const photo5 = "https://i.postimg.cc/vHGgLwNM/Sosua-Buggie5.webp"
+const photo6 = "https://i.postimg.cc/nhzXgYxP/Sosua-Buggie6.webp"
+const photo7 = "https://i.postimg.cc/SKYJNSJL/Sosua-Buggie8.webp"
+const photo8 = "https://i.postimg.cc/jqHn7SvZ/Sosua-Buggie7.webp"
+const photo9 = "https://i.postimg.cc/V6y5JxCx/Sosua-Buggie9.webp"
 
-// import video from "../../../videos/somelink"
 const buggy = {
   id: uid(),
   name: "Buggy Tour",
@@ -36,7 +42,17 @@ const buggy = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3],
+  photos: [
+    photo1,
+    photo2,
+    photo3,
+    photo4,
+    photo5,
+    photo6,
+    photo7,
+    photo8,
+    photo9,
+  ],
   video: video,
 }
 export default buggy
