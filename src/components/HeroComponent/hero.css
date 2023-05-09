@@ -63,7 +63,18 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/background-index.webp");
+    url("../../images/phone-background-index.webp");
+}
+
+@media only screen and (min-width: 500px) {
+  .indexMid {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.53),
+        rgba(245, 246, 252, 0.52)
+      ),
+      url("../../images/background-index.webp");
+  }
 }
 
 .indexLower {
@@ -72,7 +83,18 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/background-index3.webp");
+    url("../../images/phone-background-index3.webp");
+}
+
+@media only screen and (min-width: 500px) {
+  .indexLower {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.53),
+        rgba(245, 246, 252, 0.52)
+      ),
+      url("../../images/background-index3.webp");
+  }
 }
 
 .index {
@@ -81,7 +103,18 @@
       rgba(0, 0, 0, 0.53),
       rgba(245, 246, 252, 0.52)
     ),
-    url("../../images/background-index2.webp");
+    url("../../images/phone-background-index2.webp");
+}
+
+@media only screen and (min-width: 500px) {
+  .index {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.53),
+        rgba(245, 246, 252, 0.52)
+      ),
+      url("../../images/background-index2.webp");
+  }
 }
 
 .hero-text {
