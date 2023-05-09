@@ -9,6 +9,7 @@ const FrontCard = ({ tour }) => {
         className="rounded-2xl w-[90vw] md:w-80 h-96 object-cover brightness-[.6]"
         src={img}
         alt={name}
+        loading="lazy"
       />
       <div className="absolute bottom-3 left-3 text-primary-color">
         <p className="text-lg text-start">{name}</p>

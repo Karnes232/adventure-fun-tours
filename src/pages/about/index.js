@@ -16,6 +16,7 @@ const index = () => {
           />
           <div className="w-full flex justify-center items-center mx-5 my-5">
             <img
+            loading="lazy"
               src={image}
               alt=""
               className="h-auto lg:max-w-sm xl:max-w-md rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"

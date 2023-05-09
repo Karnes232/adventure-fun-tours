@@ -31,6 +31,7 @@ const SwiperCarousel = ({ tour }) => {
               src={image}
               className="h-[25vh] md:h-[35vh] lg:h-[45vh] object-cover w-full"
               alt={tour.name}
+              loading="lazy"
             />
           </SwiperSlide>
         ))}
