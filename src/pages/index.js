@@ -26,7 +26,7 @@ const IndexPage = () => {
     <Layout>
       <main>
         <HeroComponent
-          page="index2"
+          page="index"
           h1="Explore the  Republic"
           p="Find awesome water sports, buggies, horseback riding, and more!"
         />
