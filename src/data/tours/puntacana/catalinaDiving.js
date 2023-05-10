@@ -37,7 +37,7 @@ const catalinaDiving = {
   ],
   extras: {
     duration: "8 hours (approx.)",
-    minAge: "Suitable for all ages",
+    minAge: "10 years old",
     pregnant: "No",
     pickUp: "Yes",
   },
