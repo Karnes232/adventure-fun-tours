@@ -8,8 +8,8 @@ import { uid } from "uid"
 const cabezaToroSnorkel = {
   id: uid(),
   name: "Cabeza de Toro Snorkeling",
-  location: "",
-  link: "",
+  location: "Punta Cana",
+  link: "/puntacana/tours/snorkel/",
   img: mainPhoto,
   price: "",
   cost: "",

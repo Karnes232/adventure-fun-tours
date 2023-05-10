@@ -1,10 +1,5 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
-
-// import video from "../../../videos/somelink"
+import video from "../../../videos/scubaHero.mp4"
 
 const mainPhoto = "https://i.postimg.cc/7LSWbsDz/taiguey7.webp"
 const photo1 = "https://i.postimg.cc/Qtsn7Qxy/taiguey1.webp"
@@ -17,8 +12,8 @@ const photo6 = "https://i.postimg.cc/XNsDZyMs/taiguey6.webp"
 const partyBoat = {
   id: uid(),
   name: "Party Boat",
-  location: "",
-  link: "",
+  location: "Punta Cana",
+  link: "/puntacana/tours/partyboat/",
   img: mainPhoto,
   price: "",
   cost: "",

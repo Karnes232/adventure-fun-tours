@@ -8,8 +8,8 @@ import { uid } from "uid"
 const fishing = {
   id: uid(),
   name: "Fishing",
-  location: "",
-  link: "",
+  location: "Punta Cana",
+  link: "/puntacana/tours/fishing/",
   img: mainPhoto,
   price: "",
   cost: "",

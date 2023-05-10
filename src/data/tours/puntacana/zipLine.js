@@ -8,8 +8,8 @@ import { uid } from "uid"
 const zipLine = {
   id: uid(),
   name: "Zip Line",
-  location: "",
-  link: "",
+  location: "Punta Cana",
+  link: "/puntacana/tours/zipline/",
   img: mainPhoto,
   price: "",
   cost: "",
