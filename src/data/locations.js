@@ -1,8 +1,8 @@
 import { uid } from "uid"
 
-import puntaCanaPhoto from "../images/location/puntaCana.jpg"
-import sosuaPhoto from "../images/location/Sosua.jpg"
-import limonPhoto from "../images/location/limon.jpg"
+import puntaCanaPhoto from "../images/location/phone-puntaCana.webp"
+import sosuaPhoto from "../images/location/phone-Sosua.webp"
+import limonPhoto from "../images/location/phone-limon.webp"
 
 const locations = [
   {
