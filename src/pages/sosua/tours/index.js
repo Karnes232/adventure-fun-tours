@@ -27,3 +27,4 @@ const index = () => {
 }
 
 export default index
+export const Head = () => <title>Sosua Tours</title>
