@@ -3,7 +3,7 @@ import { PayPalScriptProvider } from "@paypal/react-paypal-js"
 import PayPalButtonWrapper from "../PayPalButtonWrapper/PayPalButtonWrapper"
 
 const liveId =
-  "AaPiNuBE-3bjn86CtDSbnbs5nnaeQ-vNhBk48DdMwZ0vsUYGVuE1_38burybKxv_Qn78gXQYUSKf1UG0"
+  "AbUo_XM21MJPbYtGorBEsVKSQXeD6o08uCphb06NVKCmwly9IT4NC5Qo3NjSyMdwCGDVZov1Yeys8x-J"
 const sandBox =
   "AWKpOxlq063t4e3-YvGIHBWohFbzZ_o0Y1M2juHc6EaAr5iK_UfOAEKb_YxhdpRvC5uu_Sj444MyUzmZ"
 
