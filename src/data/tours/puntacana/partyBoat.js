@@ -11,7 +11,7 @@ const photo6 = "https://i.postimg.cc/XNsDZyMs/taiguey6.webp"
 
 const partyBoat = {
   id: uid(),
-  name: "Party Boat",
+  name: "Taiguey Party Boat",
   location: "Punta Cana",
   link: "/puntacana/tours/partyboat/",
   img: mainPhoto,
