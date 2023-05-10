@@ -16,8 +16,8 @@ const FrontCard = ({ tour }) => {
         <p className="text-start my-2">${price}</p>
         <p className="text-start font-light pb-5 lg:hidden">{description}</p>
         <p className="text-start lg:hidden">
-          <Link to={link} className="underline underline-offset-8">
-            More Info
+          <Link to={link} className="underline underline-offset-8 capitalize">
+            Learn more about this tour
           </Link>
         </p>
       </div>
