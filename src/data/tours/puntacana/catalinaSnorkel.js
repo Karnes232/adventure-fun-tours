@@ -10,7 +10,6 @@ const photo6 = "https://i.postimg.cc/sXfsyscN/catalina7.webp"
 const photo7 = "https://i.postimg.cc/Y0ZH1gw5/catalina8.webp"
 const photo8 = "https://i.postimg.cc/VL01z7qm/catalina9.webp"
 
-// import video from "../../../videos/somelink"
 const catalinaSnorkel = {
   id: uid(),
   name: "Catalina Snorkeling",
