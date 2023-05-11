@@ -42,7 +42,7 @@ const TourPage = ({ tour }) => {
               <SwiperCarousel tour={tour} />
             </div>
           )}
-          
+
           <div className="max-w-6xl my-5 mx-5 md:mx-10 xl:mx-auto">
             {tour.tourPage.title2 && (
               <div className="my-5">

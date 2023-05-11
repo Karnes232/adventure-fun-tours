@@ -1,8 +1,11 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
+
+const mainPhoto = "https://i.postimg.cc/pXty9kbZ/scubadoo2.webp"
+const photo1 = "https://i.postimg.cc/VstdLpTv/scubadoo1.webp"
+const photo2 = "https://i.postimg.cc/02dj7m9q/scubadoo3.webp"
+const photo3 = "https://i.postimg.cc/kgJ4s45R/scubadoo4.webp"
+const photo4 = "https://i.postimg.cc/Jnf055yR/scubadoo5.webp"
+const photo5 = "https://i.postimg.cc/Kjtzq3LB/scubadoo6.webp"
 
 // import video from "../../../videos/somelink"
 const scubaDoo = {
@@ -36,7 +39,7 @@ const scubaDoo = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3],
+  photos: [photo1, photo2, photo3, mainPhoto, photo4, photo5],
   video: video,
 }
 export default scubaDoo
