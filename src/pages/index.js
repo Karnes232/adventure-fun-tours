@@ -27,7 +27,7 @@ const IndexPage = () => {
       <main>
         <HeroComponent
           page="index"
-          h1="Explore the  Republic"
+          h1="Explore the Dominican Republic"
           p="Find awesome water sports, buggies, horseback riding, and more!"
         />
         <div className="mt-[85vh]"></div>

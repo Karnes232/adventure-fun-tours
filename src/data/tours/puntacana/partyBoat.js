@@ -16,7 +16,7 @@ const partyBoat = {
   link: "/puntacana/tours/partyboat/",
   img: mainPhoto,
   price: "95",
-  cost: "50",
+  cost: "35",
   description: "Get ready to let loose and party as our lively crew creates a festive ambiance onboard the Taiguey Party Boat.",
   tourPage: {
     title1: "Celebrate and Dance to the Rhythm of the Caribbean",

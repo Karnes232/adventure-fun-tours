@@ -11,8 +11,8 @@ const scubaDoo = {
   location: "Punta Cana",
   link: "/puntacana/tours/scubadoo/",
   img: mainPhoto,
-  price: "",
-  cost: "",
+  price: "80",
+  cost: "35",
   description: "",
   tourPage: {
     title1: "",
