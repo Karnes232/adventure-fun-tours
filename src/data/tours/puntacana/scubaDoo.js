@@ -7,7 +7,7 @@ const photo3 = "https://i.postimg.cc/kgJ4s45R/scubadoo4.webp"
 const photo4 = "https://i.postimg.cc/Jnf055yR/scubadoo5.webp"
 const photo5 = "https://i.postimg.cc/Kjtzq3LB/scubadoo6.webp"
 
-// import video from "../../../videos/somelink"
+const video = "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-scubadoo.mp4"
 const scubaDoo = {
   id: uid(),
   name: "Scuba Doo",
