@@ -1,14 +1,21 @@
 import React from "react"
 
-const BackgroundVideo = ({ video, className }) => {
+const BackgroundVideo = ({ video, phoneVideo, className }) => {
   return (
     <div className={`bg-video-section bg-video-main ${className}`}>
       <div className="bg-video">
-      <object data='https://www.youtube.com/embed/KvZT3etZIsw?autoplay=1' 
-        width='100%' height='100%'>
-    </object>
-        {/* <video
-          className="bg-video__content"
+        <video
+          className="bg-video__content md:hidden"
+          autoPlay
+          muted
+          loop
+          playsInline
+          src={phoneVideo}
+        ><source src={phoneVideo} type="video/mp4" />
+          Your device does not support playing 'video/mp4' videos
+        </video>
+        <video
+          className="bg-video__content hidden"
           autoPlay
           muted
           loop
@@ -17,7 +24,7 @@ const BackgroundVideo = ({ video, className }) => {
         >
           <source src={video} type="video/mp4" />
           Your device does not support playing 'video/mp4' videos
-        </video> */}
+        </video>
       </div>
     </div>
   )
