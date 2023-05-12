@@ -4,8 +4,8 @@
 }
 
 .bg-video-main {
-  -webkit-clip-path: polygon(0 0vh, 100% 0, 100% 40vh, 0% 100%);
-  clip-path: polygon(0 0vh, 100% 0, 100% 40vh, 0% 100%);
+  /* -webkit-clip-path: polygon(0 0vh, 100% 0, 100% 40vh, 0% 100%);
+  clip-path: polygon(0 0vh, 100% 0, 100% 40vh, 0% 100%); */
 }
 
 .bg-video {
@@ -35,14 +35,14 @@
 
 @media only screen and (min-width: 1024px) {
   .bg-video-section {
-    min-height: 60vh;
+    min-height: 80vh;
   }
   .bg-video-main {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0% 100%);
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%); */
   }
 
   .bg-video__content {
-    height: 60vh;
+    height: 80vh;
   }
 }
