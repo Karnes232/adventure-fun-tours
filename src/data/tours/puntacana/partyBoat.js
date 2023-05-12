@@ -1,6 +1,10 @@
 import { uid } from "uid"
-import videoPhone from '../../../videos/puntacana/puntacana-taiguey-phone.mp4'
-import video from '../../../videos/puntacana/puntacana-taiguey.mp4'
+// import videoPhone from '../../../videos/puntacana/puntacana-taiguey-phone.mp4'
+// import video from '../../../videos/puntacana/puntacana-taiguey.mp4'
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-taiguey-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-taiguey.mp4"
 
 const mainPhoto = "https://i.postimg.cc/7LSWbsDz/taiguey7.webp"
 const photo1 = "https://i.postimg.cc/Qtsn7Qxy/taiguey1.webp"
