@@ -1,4 +1,6 @@
 import { uid } from "uid"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Sosua/sosua-buggie.mp4"
 const video =
   "https://ik.imagekit.io/adventureTours/AdventureTours/Sosua/sosua-buggie.mp4"
 const mainPhoto = "https://i.postimg.cc/Dy5Wxp9G/Sosua-Buggie10.webp"
