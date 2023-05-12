@@ -6,7 +6,8 @@ const photo2 = "https://i.postimg.cc/02dj7m9q/scubadoo3.webp"
 const photo3 = "https://i.postimg.cc/kgJ4s45R/scubadoo4.webp"
 const photo4 = "https://i.postimg.cc/Jnf055yR/scubadoo5.webp"
 const photo5 = "https://i.postimg.cc/Kjtzq3LB/scubadoo6.webp"
-
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-scubadoo.mp4"
 const video =
   "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-scubadoo.mp4"
 const scubaDoo = {
