@@ -55,5 +55,6 @@ const buggy = {
     photo9,
   ],
   video: video,
+  videoPhone: videoPhone,
 }
 export default buggy

@@ -58,5 +58,6 @@ const snorkeling = {
     photo11,
   ],
   video: video,
+  videoPhone: videoPhone,
 }
 export default snorkeling

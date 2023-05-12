@@ -1,4 +1,5 @@
 import { uid } from "uid"
+import videoPhone from "../../../videos/scubaHero2.mp4"
 import video from "../../../videos/scubaHero.mp4"
 const mainPhoto = "https://i.postimg.cc/pXKWDGpk/catalina2.webp"
 const photo1 = "https://i.postimg.cc/HjDNYtmk/catalina1.webp"
@@ -57,5 +58,6 @@ const catalinaSnorkel = {
     mainPhoto,
   ],
   video: video,
+  videoPhone: videoPhone,
 }
 export default catalinaSnorkel

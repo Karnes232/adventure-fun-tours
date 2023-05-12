@@ -47,5 +47,6 @@ const partyBoat = {
 
   photos: [photo1, photo2, photo3, photo4, photo5, photo6],
   video: video,
+  videoPhone: videoPhone,
 }
 export default partyBoat

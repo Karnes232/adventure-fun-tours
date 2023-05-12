@@ -64,7 +64,13 @@ const TourPage = ({ tour }) => {
               {tour.extras && <ExtraInfo extras={tour.extras} />}{" "}
             </div>
           </div>
-          {tour.video && <BackgroundVideo video={tour.video} phoneVideo={tour.videoPhone} className="" />}
+          {tour.video && (
+            <BackgroundVideo
+              video={tour.video}
+              phoneVideo={tour.videoPhone}
+              className=""
+            />
+          )}
         </main>
       )}
     </>

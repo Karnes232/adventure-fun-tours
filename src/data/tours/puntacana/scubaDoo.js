@@ -7,7 +7,8 @@ const photo3 = "https://i.postimg.cc/kgJ4s45R/scubadoo4.webp"
 const photo4 = "https://i.postimg.cc/Jnf055yR/scubadoo5.webp"
 const photo5 = "https://i.postimg.cc/Kjtzq3LB/scubadoo6.webp"
 
-const video = "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-scubadoo.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-scubadoo.mp4"
 const scubaDoo = {
   id: uid(),
   name: "Scuba Doo",
@@ -41,5 +42,6 @@ const scubaDoo = {
 
   photos: [photo1, photo2, photo3, mainPhoto, photo4, photo5],
   video: video,
+  videoPhone: videoPhone,
 }
 export default scubaDoo
