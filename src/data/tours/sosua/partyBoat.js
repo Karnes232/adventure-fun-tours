@@ -1,4 +1,5 @@
 import { uid } from "uid"
+import videoPhone from '../../../videos/sosua/partySosua-phone.mp4'
 const video =
   "https://ik.imagekit.io/adventureTours/AdventureTours/Sosua/partySosua.mp4"
 const mainPhoto = "https://i.postimg.cc/gjCPscbm/party16.webp"
@@ -91,5 +92,6 @@ const partyBoat = {
     photo29,
   ],
   video: video,
+  videoPhone: videoPhone,
 }
 export default partyBoat
