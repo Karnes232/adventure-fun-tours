@@ -4,7 +4,7 @@ const BackgroundVideo = ({ video, phoneVideo, className }) => {
   return (
     <div className={`bg-video-section bg-video-main ${className}`}>
       <div className="bg-video">
-        <video className="bg-video__conten" autoPlay muted loop playsInline>
+        <video className="bg-video__content" autoPlay muted loop playsInline>
           <source
             src={phoneVideo}
             type="video/mp4"

@@ -1,6 +1,7 @@
 .bg-video-section {
   position: relative;
   min-height: 13.7rem;
+  width: 100%;
 }
 
 .bg-video-main {
