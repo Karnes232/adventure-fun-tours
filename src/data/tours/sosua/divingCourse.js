@@ -40,20 +40,27 @@ const divingCourse = {
   location: "Sosua",
   link: "/sosua/tours/divingcourse/",
   img: mainPhoto,
-  price: "",
-  cost: "",
-  description: "Are you ready to embark on an extraordinary journey beneath the surface of the ocean? We offer a range of scuba diving courses in Sosua that cater to all levels of experience",
+  price: "110",
+  cost: "50",
+  description:
+    "Are you ready to embark on an extraordinary journey beneath the surface of the ocean? We offer a range of scuba diving courses in Sosua that cater to all levels of experience",
   tourPage: {
     title1: "Discover the Magic of Scuba Diving",
-    paragraph1: " Whether you're a complete beginner or an experienced diver looking to enhance your skills, our courses cater to all skill levels. Get ready to discover the wonders of the underwater world in Sosua. Our scuba diving courses are led by professional and experienced instructors who are passionate about sharing their love for the underwater world. They will guide you every step of the way, ensuring your safety and enjoyment throughout the course. We provide top-of-the-line scuba diving equipment, adhering to the highest standards of quality and safety.",
-    title2: "Discover Scuba Diving: Dive into an Extraordinary Half-Day Experience",
-    paragraph2: "If you've always been curious about scuba diving but haven't had the chance to try it, our half-day Discover Scuba Diving course is the perfect introduction. Led by our expert instructors, this course requires no prior experience. You'll learn the basic principles of scuba diving, familiarize yourself with the equipment, and practice essential skills in a controlled environment. Then, under the careful supervision of our instructors, you'll embark on an unforgettable dive, immersing yourself in the beauty and tranquility of the underwater realm. For those seeking a more comprehensive scuba diving experience, our three-day Open Water Certification course is the ideal choice. This internationally recognized certification program equips you with the knowledge, skills, and confidence to explore the underwater world independently. Through a combination of theory sessions, pool practice, and open water dives, you'll learn essential diving techniques, safety procedures, and underwater navigation. Upon completion of the course, you'll receive your Open Water Certification, opening the door to endless diving adventures worldwide.",
+    paragraph1:
+      " Whether you're a complete beginner or an experienced diver looking to enhance your skills, our courses cater to all skill levels. Get ready to discover the wonders of the underwater world in Sosua. Our scuba diving courses are led by professional and experienced instructors who are passionate about sharing their love for the underwater world. They will guide you every step of the way, ensuring your safety and enjoyment throughout the course. We provide top-of-the-line scuba diving equipment, adhering to the highest standards of quality and safety.",
+    title2:
+      "Discover Scuba Diving: Dive into an Extraordinary Half-Day Experience",
+    paragraph2:
+      "If you've always been curious about scuba diving but haven't had the chance to try it, our half-day Discover Scuba Diving course is the perfect introduction. Led by our expert instructors, this course requires no prior experience. You'll learn the basic principles of scuba diving, familiarize yourself with the equipment, and practice essential skills in a controlled environment. Then, under the careful supervision of our instructors, you'll embark on an unforgettable dive, immersing yourself in the beauty and tranquility of the underwater realm. For those seeking a more comprehensive scuba diving experience, our three-day Open Water Certification course is the ideal choice. This internationally recognized certification program equips you with the knowledge, skills, and confidence to explore the underwater world independently. Through a combination of theory sessions, pool practice, and open water dives, you'll learn essential diving techniques, safety procedures, and underwater navigation. Upon completion of the course, you'll receive your Open Water Certification, opening the door to endless diving adventures worldwide.",
     title3: "Explore the Underwater Wonders of Sosua",
-    paragraph3: "Sosua is blessed with an abundance of stunning dive sites, offering a diverse range of marine life and captivating underwater landscapes. From vibrant coral reefs teeming with colorful fish to intriguing shipwrecks waiting to be explored, Sosua offers a playground for divers of all levels. Our scuba diving courses provide the opportunity to immerse yourself in this underwater paradise and discover the hidden treasures that lie beneath the surface. Whether you're a beginner eager to experience the thrill of breathing underwater or an aspiring diver seeking certification, Adventure Fun Tours has the perfect scuba diving course for you. Join us on a journey that will unlock the mysteries of the deep sea and leave you with unforgettable memories. Book your scuba diving course with us today and dive into a world of wonder and excitement.",
+    paragraph3:
+      "Sosua is blessed with an abundance of stunning dive sites, offering a diverse range of marine life and captivating underwater landscapes. From vibrant coral reefs teeming with colorful fish to intriguing shipwrecks waiting to be explored, Sosua offers a playground for divers of all levels. Our scuba diving courses provide the opportunity to immerse yourself in this underwater paradise and discover the hidden treasures that lie beneath the surface. Whether you're a beginner eager to experience the thrill of breathing underwater or an aspiring diver seeking certification, Adventure Fun Tours has the perfect scuba diving course for you. Join us on a journey that will unlock the mysteries of the deep sea and leave you with unforgettable memories. Book your scuba diving course with us today and dive into a world of wonder and excitement.",
   },
   available: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
   included: ["Transportation", "Dive Equipment", "Water"],
   goodInfo: [
+    "Half Day Course - $100",
+    "Open Water Certification - $480",
     "Bring your bathing suit and sunscreen",
     "All guests must be mobile and in good physical condition",
     "Transportation may not be available from some resorts or may be subject to an additional fee",
