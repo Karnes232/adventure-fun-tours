@@ -1,10 +1,13 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
+const photo3 ='https://i.postimg.cc/zGhzVT7Q/shark2.webp'
+const photo1 = 'https://i.postimg.cc/nrwFQkNy/shark3.webp'
+const photo2 = 'https://i.postimg.cc/X7mNjsfF/shark4.webp'
+const mainPhoto = 'https://i.postimg.cc/yNbWR79Q/shark1.webp'
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Scuba/shark-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Scuba/shark.mp4"
 
-// import video from "../../../videos/somelink"
 const sharkDiving = {
   id: uid(),
   name: "Shark Diving",
