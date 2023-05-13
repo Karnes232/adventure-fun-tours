@@ -7,12 +7,9 @@ const BackgroundVideo = ({ video, phoneVideo, className }) => {
     <div className={`bg-video-section bg-video-main ${className}`}>
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop playsInline>
-        {/* Allows Smaller video for mobile devices to save bandwidth */}
+          {/* Allows Smaller video for mobile devices to save bandwidth */}
           {screenWidth < 600 ? (
-            <source
-              src={phoneVideo}
-              type="video/mp4"
-            />
+            <source src={phoneVideo} type="video/mp4" />
           ) : (
             <source src={video} type="video/mp4" />
           )}
