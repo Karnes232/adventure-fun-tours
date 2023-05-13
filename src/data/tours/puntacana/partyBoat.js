@@ -1,6 +1,5 @@
 import { uid } from "uid"
-// import videoPhone from '../../../videos/puntacana/puntacana-taiguey-phone.mp4'
-// import video from '../../../videos/puntacana/puntacana-taiguey.mp4'
+
 const videoPhone =
   "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/puntacana-taiguey-phone.mp4"
 const video =

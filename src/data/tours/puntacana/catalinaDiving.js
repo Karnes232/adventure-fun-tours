@@ -1,6 +1,8 @@
 import { uid } from "uid"
-import videoPhone from "../../../videos/scubaHero2.mp4"
-import video from "../../../videos/scubaHero.mp4"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Scuba/scubaHero2.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Scuba/scubaHero.mp4"
 const mainPhoto = "https://i.postimg.cc/pXKWDGpk/catalina2.webp"
 const photo1 = "https://i.postimg.cc/HjDNYtmk/catalina1.webp"
 const photo2 = "https://i.postimg.cc/7hf4G9j1/catalina3.webp"
