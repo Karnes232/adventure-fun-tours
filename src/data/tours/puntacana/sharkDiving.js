@@ -45,7 +45,7 @@ const sharkDiving = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3],
+  photos: [photo1, photo2, photo3, mainPhoto],
   video: video,
   videoPhone: videoPhone,
 }
