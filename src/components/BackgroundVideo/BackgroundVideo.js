@@ -2,7 +2,6 @@ import React from "react"
 
 const BackgroundVideo = ({ video, phoneVideo, className }) => {
   const screenWidth = window.innerWidth
-  console.log(screenWidth)
   return (
     <div className={`bg-video-section bg-video-main ${className}`}>
       <div className="bg-video">
