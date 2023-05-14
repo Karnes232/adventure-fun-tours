@@ -16,8 +16,15 @@ const Logo = () => {
               formats={["auto", "webp", "avif"]}
               alt=""
             /> */}
-            <StaticImage
+            {/* <StaticImage
               src="../../images/logo-white.png"
+              loading="eager"
+              quality={100}
+              formats={["auto", "webp", "avif"]}
+              alt=""
+            /> */}
+            <StaticImage
+              src="../../images/logo-mix.png"
               loading="eager"
               quality={100}
               formats={["auto", "webp", "avif"]}
