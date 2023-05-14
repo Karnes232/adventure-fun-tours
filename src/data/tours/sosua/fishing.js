@@ -3,6 +3,13 @@ const mainPhoto = "https://i.postimg.cc/rpLcrNSs/fishing1.webp"
 const photo1 = "https://i.postimg.cc/7LM4MJVV/fishing.webp"
 const photo2 = "https://i.postimg.cc/Fs8h94zj/fishing2.webp"
 const photo3 = "https://i.postimg.cc/dVCw3xZg/fishing3.webp"
+const photo4 = 'https://i.postimg.cc/VLdbqDJR/fishing1.webp'
+const photo5 = 'https://i.postimg.cc/Vs7C03kv/fishing2.webp'
+const photo6 = 'https://i.postimg.cc/WzfqRJHg/fishing3.webp'
+const photo7 = 'https://i.postimg.cc/pX45qz8t/fishing4.webp'
+const photo8 = 'https://i.postimg.cc/T1P5HcCT/fishing5.webp'
+const photo9 = 'https://i.postimg.cc/V6gbRh97/fishing6.webp'
+const photo10 = 'https://i.postimg.cc/ydsZ0KRg/fishing7.webp'
 
 // import video from "../../../videos/somelink"
 const fishing = {
@@ -36,7 +43,7 @@ const fishing = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3, mainPhoto],
+  photos: [photo1, photo2, photo3, mainPhoto, photo4, photo5, photo6, photo7, photo8, photo9,photo10],
   video: video,
   videoPhone: videoPhone,
 }

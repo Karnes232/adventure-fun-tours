@@ -1,4 +1,9 @@
 import { uid } from "uid"
+const mainPhoto = 'https://i.postimg.cc/GtPmcTtH/saona1.webp'
+const photo1 = 'https://i.postimg.cc/qqH7VxkP/saona2.webp'
+const photo2 = 'https://i.postimg.cc/02xNVnXm/saona3.webp'
+const photo3 = 'https://i.postimg.cc/tC54w68c/saona4.webp'
+
 // import mainPhoto from "../../../images/tours/somelink"
 // import photo1 from "../../../images/tours/somelink"
 // import photo2 from "../../../images/tours/somelink"
