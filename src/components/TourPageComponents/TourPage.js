@@ -25,7 +25,7 @@ const TourPage = ({ tour }) => {
                   <p className="font-extralight my-2 text-base md:text-lg tracking-wide">
                     {tour.location}
                   </p>
-                  <Button text="Check Availability" customClass='' />
+                  <Button text="Check Availability" customClass="" />
                 </div>
               </div>
             )}
@@ -71,7 +71,7 @@ const TourPage = ({ tour }) => {
               {tour.extras && <ExtraInfo extras={tour.extras} />}{" "}
             </div>
             <div className="mt-2">
-              <Button text="Book Now" customClass='lg:px-20 lg:py-4' />
+              <Button text="Book Now" customClass="lg:px-20 lg:py-4" />
             </div>
           </div>
 

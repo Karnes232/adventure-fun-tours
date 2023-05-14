@@ -1,4 +1,4 @@
-import sharkDiving from './puntacana/sharkDiving'
+import sharkDiving from "./puntacana/sharkDiving"
 import catalinaDiving from "./puntacana/catalinaDiving"
 import catalinaSnorkel from "./puntacana/catalinaSnorkel"
 import partyBoat from "./puntacana/partyBoat"
@@ -10,7 +10,7 @@ const puntacanaTours = [
   catalinaSnorkel,
   partyBoat,
   divingCourses,
-  scubaDoo
+  scubaDoo,
 ]
 
 export default puntacanaTours
