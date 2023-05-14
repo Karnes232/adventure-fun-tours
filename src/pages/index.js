@@ -32,7 +32,7 @@ const IndexPage = () => {
         />
         <div className="mt-[85vh]"></div>
         <TextComponent
-          title="Welcome to the  Republic"
+          title="Welcome to the Dominican Republic"
           paragraph="A beautiful island nation located in the Caribbean. With its stunning natural beauty, rich history, and vibrant culture, the  Republic is a popular destination for travelers from around the world."
           className=""
         />
