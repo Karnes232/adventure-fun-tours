@@ -16,8 +16,10 @@ const photo12 = "https://i.postimg.cc/4xMdJgwk/dolphin6.webp"
 const photo13 = "https://i.postimg.cc/qM1q5n37/dolphin7.webp"
 const photo14 = "https://i.postimg.cc/Y2fhQT2Y/dolphin8.webp"
 const photo15 = "https://i.postimg.cc/SRrRqY1D/dolphin9.webp"
-
-// import video from "../../../videos/somelink"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/dolphin-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/dolphin.mp4"
 const dolphin = {
   id: uid(),
   name: "Dolphin Swim",
