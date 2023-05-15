@@ -4,7 +4,11 @@ import catalinaSnorkel from "./puntacana/catalinaSnorkel"
 import partyBoat from "./puntacana/partyBoat"
 import divingCourses from "./puntacana/divingCourses"
 import scubaDoo from "./puntacana/scubaDoo"
+import dolphin from "./puntacana/dolphin"
+import saona from "./puntacana/saona"
 const puntacanaTours = [
+  saona,
+  dolphin,
   sharkDiving,
   catalinaDiving,
   catalinaSnorkel,
