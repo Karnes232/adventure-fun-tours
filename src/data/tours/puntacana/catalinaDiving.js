@@ -3,7 +3,7 @@ const videoPhone =
   "https://ik.imagekit.io/adventureTours/AdventureTours/Scuba/dive-phone.mp4"
 const video =
   "https://ik.imagekit.io/adventureTours/AdventureTours/Scuba/dive.mp4"
-const mainPhoto = 'https://i.postimg.cc/Vv9kzFVj/scuba31.webp'
+const mainPhoto = "https://i.postimg.cc/Vv9kzFVj/scuba31.webp"
 const photo9 = "https://i.postimg.cc/pXKWDGpk/catalina2.webp"
 const photo1 = "https://i.postimg.cc/HjDNYtmk/catalina1.webp"
 const photo2 = "https://i.postimg.cc/7hf4G9j1/catalina3.webp"

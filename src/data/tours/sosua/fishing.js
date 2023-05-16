@@ -11,7 +11,10 @@ const photo8 = "https://i.postimg.cc/T1P5HcCT/fishing5.webp"
 const photo9 = "https://i.postimg.cc/V6gbRh97/fishing6.webp"
 const photo10 = "https://i.postimg.cc/ydsZ0KRg/fishing7.webp"
 
-// import video from "../../../videos/somelink"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/fishing-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/fishing.mp4"
 const fishing = {
   id: uid(),
   name: "Fishing",
