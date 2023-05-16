@@ -32,7 +32,7 @@ const buggy = {
   ],
   extras: {
     duration: "4 hours (approx.)",
-    minAge: "Suitable for all ages",
+    minAge: "Not advised for the old and very young",
     pregnant: "No",
     pickUp: "Yes",
   },
