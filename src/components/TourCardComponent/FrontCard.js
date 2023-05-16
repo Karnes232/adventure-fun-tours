@@ -4,6 +4,7 @@ import React from "react"
 const FrontCard = ({ tour }) => {
   const { name, img, price, description, link } = tour
   return (
+    <Link to={link} className="underline underline-offset-8 capitalize">
     <div className="flip-card-front rounded-2xl">
       <img
         className="rounded-2xl w-[90vw] md:w-80 h-96 object-cover brightness-[.6]"
@@ -21,7 +22,7 @@ const FrontCard = ({ tour }) => {
           </Link>
         </p>
       </div>
-    </div>
+    </div></Link>
   )
 }
 

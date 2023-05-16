@@ -77,4 +77,9 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Adventure Fun Tours</title>
+export const Head = () => (
+  <>
+    <title>Adventure Fun Tours</title>
+    <meta name="description" content="Tour Company located in Punta Cana, providing adventure for the family" />
+  </>
+)
