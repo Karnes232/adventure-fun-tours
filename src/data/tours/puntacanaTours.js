@@ -6,10 +6,12 @@ import divingCourses from "./puntacana/divingCourses"
 import scubaDoo from "./puntacana/scubaDoo"
 import dolphin from "./puntacana/dolphin"
 import saona from "./puntacana/saona"
+import buggy from "./puntacana/buggy"
 import fishing from "./puntacana/fishing"
 const puntacanaTours = [
   saona,
   dolphin,
+  buggy,
   sharkDiving,
   fishing,
   catalinaDiving,

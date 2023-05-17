@@ -1,10 +1,15 @@
 import { uid } from "uid"
-// import mainPhoto from "../../../images/tours/somelink"
-// import photo1 from "../../../images/tours/somelink"
-// import photo2 from "../../../images/tours/somelink"
-// import photo3 from "../../../images/tours/somelink"
+const mainPhoto = 'https://i.postimg.cc/9fncRDj0/buggy1.webp'
+const photo1 = 'https://i.postimg.cc/j2VKcB2r/buggy2.webp'
+const photo2 = 'https://i.postimg.cc/rmRMSq8J/buggy3.webp'
+const photo3 = 'https://i.postimg.cc/NF1tzb22/buggy4.webp'
+const photo4 = 'https://i.postimg.cc/1zt93p2b/buggy5.webp'
 
-// import video from "../../../videos/somelink"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/buggy-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/buggy.mp4"
+
 const buggy = {
   id: uid(),
   name: "Buggy Tour",
@@ -37,7 +42,7 @@ const buggy = {
     pickUp: "Yes",
   },
 
-  photos: [photo1, photo2, photo3],
+  photos: [photo1, photo2, photo3, photo4, mainPhoto],
   video: video,
   videoPhone: videoPhone,
 }
