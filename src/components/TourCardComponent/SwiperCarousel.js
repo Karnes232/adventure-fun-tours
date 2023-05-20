@@ -13,7 +13,7 @@ const SwiperCarousel = ({ title, tours }) => {
       <div className="mt-5">
         <TextComponent title={title} className="" />
       </div>
-      <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
+      <div className="max-w-6xl mx-2 lg:mx-auto mb-5">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
