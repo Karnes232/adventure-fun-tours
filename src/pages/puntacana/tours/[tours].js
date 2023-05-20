@@ -13,5 +13,3 @@ const tour = ({ location }) => {
 }
 
 export default tour
-
-export const Head = () => <title>Adventure Fun Tours</title>

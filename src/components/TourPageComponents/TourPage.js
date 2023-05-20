@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import HeroComponent from "./HeroComponent"
 import AvailableComponent from "./AvailableComponent"
 import SwiperCarousel from "../BackgroundCarousel/SwiperCarousel"
@@ -12,6 +13,7 @@ import Button from "./Button"
 const TourPage = ({ tour }) => {
   return (
     <>
+      <Helmet title={tour.name} />
       {tour && (
         <main>
           {tour.img && <HeroComponent image={tour.img} />}
