@@ -13,7 +13,8 @@ import Button from "./Button"
 const TourPage = ({ tour }) => {
   return (
     <>
-      <Helmet title={tour.name} />
+    {tour.name && <Helmet title={tour.name} />}
+      
       {tour && (
         <main>
           {tour.img && <HeroComponent image={tour.img} />}
