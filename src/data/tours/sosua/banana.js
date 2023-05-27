@@ -34,7 +34,7 @@ const banana = {
     "Transportation may not be available from some resorts or may be subject to an additional fee",
   ],
   extras: {
-    duration: "8 hours (approx.)",
+    duration: "10 minutes (approx.)",
     minAge: "Suitable for all ages",
     pregnant: "No",
     pickUp: "Yes",

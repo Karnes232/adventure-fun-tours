@@ -20,8 +20,8 @@ const buggy = {
   location: "Sosua",
   link: "/sosua/tours/buggy/",
   img: mainPhoto,
-  price: "",
-  cost: "",
+  price: "85",
+  cost: "50",
   description:
     "Buckle up, hold on tight, and prepare for an adrenaline-filled ride as you explore the hidden gems of this vibrant destination.",
   tourPage: {
