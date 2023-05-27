@@ -57,14 +57,14 @@ const PayPalButtonWrapper = ({
             const firstName = details.payer.name.given_name
             const lastName = details.payer.name.surname
             const deposit = details.purchase_units[0].amount.value
-            // axios.post("/api/email", {
-            //   clientName: `${firstName} ${lastName}`,
-            //   deposit: deposit,
-            //   totalCost: parseFloat(deposit) + parseFloat(balance),
-            //   date: date,
-            //   excursion: excursion,
-            //   email: email,
-            // })
+            axios.post("/api/email", {
+              clientName: `${firstName} ${lastName}`,
+              deposit: deposit,
+              totalCost: parseFloat(deposit) + parseFloat(balance),
+              date: date,
+              excursion: excursion,
+              email: email,
+            })
             window.location.href = `${host}/thankyou/?firstname=${firstName}&lastname=${lastName}&deposit=${deposit}&balance=${balance}&excursion=${excursion}`
           })
         }}

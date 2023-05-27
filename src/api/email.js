@@ -11,6 +11,8 @@ let mailTransporter = nodemailer.createTransport({
 })
 
 export default function handler(req, res) {
+  console.log(EMAIL_PASSWORD)
+  console.log(EMAIL_USER)
   const clientName = req.body.clientName
   const deposit = req.body.deposit
   const totalCost = req.body.totalCost
