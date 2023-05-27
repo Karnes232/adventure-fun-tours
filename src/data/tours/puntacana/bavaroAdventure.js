@@ -26,7 +26,7 @@ const photo22 = "https://i.postimg.cc/xTCcLKLZ/bap5.webp"
 const photo23 = "https://i.postimg.cc/SxYRvkT7/bap6.webp"
 const photo24 = "https://i.postimg.cc/c4b6hrmL/bap7.webp"
 const photo25 = "https://i.postimg.cc/D0C0tZ35/bap8.webp"
-const photo26 = "https://i.postimg.cc/FKcf7N0s/bap9.webp"
+const photo26 = "https://i.postimg.cc/SsM474MX/bap9.webp"
 
 // import video from "../../../videos/somelink"
 const bavaroAdventure = {
