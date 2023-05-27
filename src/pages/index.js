@@ -66,7 +66,7 @@ const IndexPage = () => {
 
         <TextComponent
           title="Create memories that will last a lifetime!"
-          paragraph="No matter what your interests, taking a tour in the  Republic is a great way to make the most of your visit. With knowledgeable guides, comfortable transportation, and carefully planned itineraries, you can sit back, relax, and enjoy all that this amazing destination has to offer. So book your tour today and start exploring the  Republic!"
+          paragraph="No matter what your interests, taking a tour in the Dominican Republic is a great way to make the most of your visit. With knowledgeable guides, comfortable transportation, and carefully planned itineraries, you can sit back, relax, and enjoy all that this amazing destination has to offer. So book your tour today and start exploring the Dominican Republic!"
           className=""
         />
         <div className="mb-5"></div>

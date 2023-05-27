@@ -15,7 +15,17 @@ const TourPage = ({ tour }) => {
     <>
       {tour && (
         <>
-          {tour.name && <Helmet title={tour.name} />}
+          {tour.name && (
+            <Helmet
+              title={tour.name}
+              meta={[
+                {
+                  name: `description`,
+                  content: tour.description,
+                },
+              ]}
+            />
+          )}
           <main>
             {tour.img && <HeroComponent image={tour.img} />}
             <div className="max-w-6xl my-5 mx-5 md:mx-10 xl:mx-auto">
