@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react"
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js"
-
+import axios from "axios"
 const PayPalButtonWrapper = ({
   currency,
   showSpinner,
   amount,
   balance,
   excursion,
+  date,
 }) => {
   const style = { layout: "vertical", shape: "pill" }
   const [{ options, isPending }, dispatch] = usePayPalScriptReducer()
@@ -52,9 +53,18 @@ const PayPalButtonWrapper = ({
         }}
         onApprove={function (data, actions) {
           return actions.order.capture().then(function (details) {
+            const email = details.payer.email_address
             const firstName = details.payer.name.given_name
             const lastName = details.payer.name.surname
             const deposit = details.purchase_units[0].amount.value
+            axios.post("/api/email", {
+              clientName: `${firstName} ${lastName}`,
+              deposit: deposit,
+              totalCost: parseFloat(deposit) + parseFloat(balance),
+              date: date,
+              excursion: excursion,
+              email: email,
+            })
             window.location.href = `${host}/thankyou/?firstname=${firstName}&lastname=${lastName}&deposit=${deposit}&balance=${balance}&excursion=${excursion}`
           })
         }}

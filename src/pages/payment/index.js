@@ -70,6 +70,7 @@ const Index = () => {
                   price={deposit}
                   balance={balance}
                   excursion={excursion}
+                  date={newDate}
                 />
               </div>
             </div>
