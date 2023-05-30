@@ -8,8 +8,12 @@ import dolphin from "./puntacana/dolphin"
 import saona from "./puntacana/saona"
 import buggy from "./puntacana/buggy"
 import fishing from "./puntacana/fishing"
+import horseRiding from "./puntacana/horseRiding"
+import zipLine from "./puntacana/zipLine"
 const puntacanaTours = [
   saona,
+  horseRiding,
+  zipLine,
   dolphin,
   buggy,
   sharkDiving,

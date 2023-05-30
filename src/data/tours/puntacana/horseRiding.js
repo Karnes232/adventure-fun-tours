@@ -4,7 +4,10 @@ const photo1 = "https://i.postimg.cc/mDfHwtTH/bap24.webp"
 const photo2 = "https://i.postimg.cc/SxYRvkT7/bap6.webp"
 const photo3 = "https://i.postimg.cc/SsM474MX/bap9.webp"
 
-// import video from "../../../videos/somelink"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/horse-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/horse.mp4"
 const horseRiding = {
   id: uid(),
   name: "Horse Riding",

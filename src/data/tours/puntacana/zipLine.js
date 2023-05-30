@@ -9,7 +9,10 @@ const photo6 = "https://i.postimg.cc/2yCLsMbj/bap16.webp"
 const photo7 = "https://i.postimg.cc/ZK7vQfTZ/bap15.webp"
 const photo8 = "https://i.postimg.cc/KcQ1K93L/bap1.webp"
 
-// import video from "../../../videos/somelink"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/zipline-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/zipline.mp4"
 const zipLine = {
   id: uid(),
   name: "Zip Line",
