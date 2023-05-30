@@ -49,5 +49,6 @@ const horseRiding = {
 
   photos: [photo1, photo2, photo3, mainPhoto],
   video: video,
+  videoPhone: videoPhone,
 }
 export default horseRiding
