@@ -4,7 +4,10 @@ import { uid } from "uid"
 // import photo2 from "../../../images/tours/somelink"
 // import photo3 from "../../../images/tours/somelink"
 
-// import video from "../../../videos/somelink"
+const videoPhone =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Sosua/glass-phone.mp4"
+const video =
+  "https://ik.imagekit.io/adventureTours/AdventureTours/Sosua/glass.mp4"
 const glass = {
   id: uid(),
   name: "Glass Bottom Boat",

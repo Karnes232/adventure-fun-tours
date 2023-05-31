@@ -38,5 +38,6 @@ const template = {
 
   photos: [photo1, photo2, photo3],
   video: video,
+  videoPhone: videoPhone,
 }
 export default template
