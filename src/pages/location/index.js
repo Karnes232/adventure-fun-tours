@@ -11,7 +11,7 @@ const index = () => {
         <HeroComponent
           page="indexMid"
           h1="Our Locations"
-          p="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+          p=""
         />
         <div className="mt-[85vh]"></div>
         <TextComponent title="Choose your Location" className="" />

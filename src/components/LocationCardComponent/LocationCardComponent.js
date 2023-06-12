@@ -16,7 +16,7 @@ const LocationCardComponent = ({ location, my }) => {
                 loading="lazy"
               />
               <div className="absolute location-centered text-primary-color">
-                <p className="text-3xl font-semibold font-serif">{name}</p>
+                <p className="text-3xl font-semibold locationFont">{name}</p>
               </div>
             </div>
           </div>
