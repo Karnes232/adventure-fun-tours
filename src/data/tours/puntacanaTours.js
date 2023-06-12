@@ -11,18 +11,19 @@ import fishing from "./puntacana/fishing"
 import horseRiding from "./puntacana/horseRiding"
 import zipLine from "./puntacana/zipLine"
 const puntacanaTours = [
-  saona,
-  horseRiding,
-  zipLine,
-  dolphin,
-  buggy,
   sharkDiving,
-  fishing,
+  saona,
+  buggy,
   catalinaDiving,
-  catalinaSnorkel,
   partyBoat,
+  zipLine,
+  horseRiding,
   divingCourses,
   scubaDoo,
+  dolphin,
+  fishing,
+  catalinaSnorkel,
+
 ]
 
 export default puntacanaTours
