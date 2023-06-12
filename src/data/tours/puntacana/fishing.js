@@ -1,5 +1,5 @@
 import { uid } from "uid"
-const mainPhoto = "https://i.postimg.cc/rpLcrNSs/fishing1.webp"
+const photo11 = "https://i.postimg.cc/rpLcrNSs/fishing1.webp"
 const photo1 = "https://i.postimg.cc/7LM4MJVV/fishing.webp"
 const photo2 = "https://i.postimg.cc/Fs8h94zj/fishing2.webp"
 const photo3 = "https://i.postimg.cc/dVCw3xZg/fishing3.webp"
@@ -10,6 +10,7 @@ const photo7 = "https://i.postimg.cc/pX45qz8t/fishing4.webp"
 const photo8 = "https://i.postimg.cc/T1P5HcCT/fishing5.webp"
 const photo9 = "https://i.postimg.cc/V6gbRh97/fishing6.webp"
 const photo10 = "https://i.postimg.cc/ydsZ0KRg/fishing7.webp"
+const mainPhoto = 'https://i.postimg.cc/zfMscsXJ/fishing95.webp'
 
 const videoPhone =
   "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/fishing-phone.mp4"
@@ -61,6 +62,7 @@ const fishing = {
     photo8,
     photo9,
     photo10,
+    photo11
   ],
   video: video,
   videoPhone: videoPhone,
