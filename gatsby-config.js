@@ -9,6 +9,12 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-postcss",
     {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "Unknown",
