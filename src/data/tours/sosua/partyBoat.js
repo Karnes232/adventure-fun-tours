@@ -38,8 +38,8 @@ const partyBoat = {
   location: "Sosua",
   link: "/sosua/tours/party/",
   img: mainPhoto,
-  price: "60",
-  cost: "30",
+  price: "65",
+  cost: "55",
   description:
     "Join us for a lively and unforgettable experience as we cruise along the stunning coastline, dance to infectious beats, enjoy refreshing drinks, and soak up the vibrant atmosphere.",
   tourPage: {

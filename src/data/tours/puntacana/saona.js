@@ -14,8 +14,8 @@ const saona = {
   location: "Punta Cana",
   link: "/puntacana/tours/saona/",
   img: mainPhoto,
-  price: "120",
-  cost: "40",
+  price: "70",
+  cost: "55",
   description:
     "Escape to the tropical paradise of Saona Island and experience a day of pure bliss and natural beauty.",
   tourPage: {

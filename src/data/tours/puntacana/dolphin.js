@@ -27,7 +27,7 @@ const dolphin = {
   link: "/puntacana/tours/dolphin/",
   img: mainPhoto,
   price: "185",
-  cost: "150",
+  cost: "129",
   description:
     "Dive into an extraordinary adventure that will create lasting memories and a deep connection with these magnificent creatures",
   tourPage: {

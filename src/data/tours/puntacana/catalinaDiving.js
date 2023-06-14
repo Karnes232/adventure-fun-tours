@@ -20,8 +20,8 @@ const catalinaDiving = {
   location: "Punta Cana",
   link: "/puntacana/tours/catalinadiving/",
   img: mainPhoto,
-  price: "195",
-  cost: "85",
+  price: "180",
+  cost: "70",
   description:
     "Join us on an unforgettable journey to Catalina Island, where you'll discover the breathtaking beauty of the Caribbean Sea. ",
   tourPage: {

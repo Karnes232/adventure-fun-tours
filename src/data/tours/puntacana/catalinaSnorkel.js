@@ -19,8 +19,8 @@ const catalinaSnorkel = {
   location: "Punta Cana",
   link: "/puntacana/tours/catalinasnorkel/",
   img: mainPhoto,
-  price: "99",
-  cost: "50",
+  price: "70",
+  cost: "45",
   description:
     "Dive into crystal-clear waters and discover a mesmerizing realm teeming with colorful coral gardens, playful marine life, and unforgettable snorkeling experiences.",
   tourPage: {

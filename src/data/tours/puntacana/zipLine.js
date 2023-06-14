@@ -20,7 +20,7 @@ const zipLine = {
   link: "/puntacana/tours/zipline/",
   img: mainPhoto,
   price: "89",
-  cost: "50",
+  cost: "80",
   description:
     "Get ready for an adrenaline-fueled aerial experience with our thrilling zipline tour in Punta Cana.",
   tourPage: {

@@ -40,8 +40,8 @@ const diving = {
   location: "Sosua",
   link: "/sosua/tours/diving/",
   img: mainPhoto,
-  price: "100",
-  cost: "50",
+  price: "90",
+  cost: "70",
   description:
     "Whether you're a seasoned diver or a recent graduate, our tours offer an unforgettable opportunity to explore the vibrant marine ecosystems that make Sosua a diver's paradise.",
   tourPage: {

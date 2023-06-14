@@ -40,8 +40,8 @@ const divingCourse = {
   location: "Sosua",
   link: "/sosua/tours/divingcourse/",
   img: mainPhoto,
-  price: "110",
-  cost: "50",
+  price: "400",
+  cost: "350",
   description:
     "Are you ready to embark on an extraordinary journey beneath the surface of the ocean? We offer a range of scuba diving courses in Sosua that cater to all levels of experience",
   tourPage: {
@@ -60,7 +60,7 @@ const divingCourse = {
   included: ["Transportation", "Dive Equipment", "Water"],
   goodInfo: [
     "Half Day Course - $100",
-    "Open Water Certification - $480",
+    "Open Water Certification - $400",
     "Bring your bathing suit and sunscreen",
     "All guests must be mobile and in good physical condition",
     "Transportation may not be available from some resorts or may be subject to an additional fee",

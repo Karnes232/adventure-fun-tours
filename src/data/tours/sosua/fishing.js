@@ -21,8 +21,8 @@ const fishing = {
   location: "Sosua",
   link: "/sosua/tours/fishing/",
   img: mainPhoto,
-  price: "110",
-  cost: "50",
+  price: "600",
+  cost: "500",
   description: "Are you ready to reel in the catch of a lifetime?",
   tourPage: {
     title1: "Experience the Thrill of Deep Sea Fishing",

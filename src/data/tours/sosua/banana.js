@@ -26,7 +26,7 @@ const banana = {
   link: "/sosua/tours/banana/",
   img: mainPhoto,
   price: "15 per person",
-  cost: "7",
+  cost: "10",
   description:
     "Get ready for a wet and wild adventure with our exhilarating banana boat rides in Sosua.",
   tourPage: {

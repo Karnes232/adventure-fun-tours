@@ -16,7 +16,7 @@ const buggy = {
   location: "Punta Cana",
   link: "/puntacana/tours/buggy/",
   img: mainPhoto,
-  price: "85",
+  price: "60",
   cost: "50",
   description:
     "Strap in and take the wheel as you navigate the rugged terrains, explore stunning beaches, and immerse yourself in the vibrant culture of the Dominican Republic.",

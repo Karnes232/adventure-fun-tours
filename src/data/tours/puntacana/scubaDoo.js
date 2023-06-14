@@ -16,7 +16,7 @@ const scubaDoo = {
   location: "Punta Cana",
   link: "/puntacana/tours/scubadoo/",
   img: mainPhoto,
-  price: "80",
+  price: "55",
   cost: "35",
   description:
     "Immerse yourself in the wonders of the underwater world and experience an unforgettable adventure with ScubaDoo in Punta Cana.",

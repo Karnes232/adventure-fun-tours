@@ -14,8 +14,8 @@ const sharkDiving = {
   location: "Punta Cana",
   link: "/puntacana/tours/sharkdive/",
   img: mainPhoto,
-  price: "180",
-  cost: "100",
+  price: "110",
+  cost: "90",
   description:
     "Prepare to be awe-struck as you descend into the realm of the black tip reef sharks, one of the ocean's most graceful and awe-inspiring creatures.",
   tourPage: {
