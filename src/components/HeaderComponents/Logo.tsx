@@ -3,19 +3,10 @@ import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 // import logo from "../../images/logo-fun.png"
+import useScrollPosition from "../../customHooks/useScrollPosition"
 const Logo = () => {
-  const [scrollPosition, getScrollPositon] = useState(0)
-
-  useEffect(() => {
-    window.addEventListener('scroll',() => {
-    getScrollPositon(document.documentElement.scrollTop);
-    return () => {
-      window.removeEventListener("scroll", () => {
-        getScrollPositon(document.documentElement.scrollTop);
-      });
-    };
-    })
-  }, [])
+  const scrollPosition = useScrollPosition()
+  console.log(scrollPosition)
   return (
     <>
       <div className="flex justify-center items-center">
