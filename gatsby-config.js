@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://adventurefuntoursdr.com/`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -14,12 +14,7 @@ module.exports = {
         lang: "en",
       },
     },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "Unknown",
-      },
-    },
+    
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
@@ -45,5 +40,12 @@ module.exports = {
       __key: "images",
     },
     `gatsby-plugin-offline`,
+    'gatsby-plugin-robots-txt',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        excludes: ['/payment/*', '/payment','/thankyou/*', '/thankyou'],
+      },
+    }
   ],
 }
