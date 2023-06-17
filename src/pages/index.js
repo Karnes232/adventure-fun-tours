@@ -84,5 +84,9 @@ export const Head = () => (
       name="description"
       content="Tour Company located in Punta Cana, providing adventure for the family"
     />
+    <meta
+      name="google-site-verification"
+      content="oen14zI8rzSPdxfCZyWSD7qjG4hMgXca79ggouw"
+    />
   </>
 )
