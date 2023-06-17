@@ -1,8 +1,7 @@
 import { uid } from "uid"
 const mainPhoto = "https://i.postimg.cc/GtPmcTtH/saona1.webp"
-const photo1 = "https://i.postimg.cc/qqH7VxkP/saona2.webp"
-const photo2 = "https://i.postimg.cc/02xNVnXm/saona3.webp"
-const photo3 = "https://i.postimg.cc/tC54w68c/saona4.webp"
+const photo1 = "https://i.postimg.cc/02xNVnXm/saona3.webp"
+const photo2 = "https://i.postimg.cc/tC54w68c/saona4.webp"
 
 const videoPhone =
   "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/saona-phone.mp4"
@@ -53,8 +52,8 @@ const saona = {
       desktop: photo2,
     },
     {
-      mobile: photo3,
-      desktop: photo3,
+      mobile: mainPhoto,
+      desktop: mainPhoto,
     },
   ],
   video: video,
