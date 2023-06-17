@@ -5,6 +5,8 @@ import TextComponent from "../components/TextComponent/TextComponent"
 import BackgroundImage from "../components/HeroComponent/BackgroundImage"
 import puntacanaTours from "../data/tours/puntacanaTours"
 import sosuaTours from "../data/tours/sosuaTours"
+import { schema } from "../data/schema"
+import Seo from "../components/seo"
 //import SwiperLocationCarousel from "../components/LocationCardComponent/SwiperLocationCarousel"
 //import IndexLocationComponent from "../components/LocationCardComponent/IndexLocationComponent"
 //import SwiperCarousel from "../components/TourCardComponent/SwiperCarousel"
@@ -79,11 +81,7 @@ export default IndexPage
 
 export const Head = () => (
   <>
-    <title>Adventure Fun Tours</title>
-    <meta
-      name="description"
-      content="Tour Company located in Punta Cana, providing adventure for the family"
-    />
+    <Seo title="Adventure Fun Tours" description='Tour Company located in Punta Cana, providing adventure for the family.' schemaMarkup={schema}/>
     <meta
       name="google-site-verification"
       content="oen14zI8rzSPdxfCZyWSD7qjG4hMgXca79ggouw"

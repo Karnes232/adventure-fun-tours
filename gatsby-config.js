@@ -3,6 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
+    title: `Adventure Fun Tours`,
+    description: `Tour Company located in Punta Cana, providing adventure for the family.`,
+    keywords: `catamaran punta cana, punta cana tours, best excursions in punta cana, dune buggy punta cana, scuba doo punta cana, buggy tour punta cana, saona island from punta cana, catalina island punta cana`,
+    author: `@karnes232`,
     siteUrl: `https://adventurefuntoursdr.com/`,
   },
   plugins: [
