@@ -71,36 +71,126 @@ const diving = {
   },
 
   photos: [
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-    photo5,
-    photo6,
-    photo7,
-    photo8,
-    photo9,
-    photo10,
-    photo11,
-    photo12,
-    photo13,
-    photo14,
-    photo15,
-    photo16,
-    photo17,
-    photo18,
-    photo19,
-    photo20,
-    photo21,
-    photo22,
-    photo23,
-    photo24,
-    photo25,
-    photo26,
-    photo27,
-    photo28,
-    photo29,
-    photo30,
+    {
+      mobile: photo1,
+      desktop: photo1,
+    },
+    {
+      mobile: photo2,
+      desktop: photo2,
+    },
+    {
+      mobile: photo3,
+      desktop: photo3,
+    },
+    {
+      mobile: photo4,
+      desktop: photo4,
+    },
+    {
+      mobile: photo5,
+      desktop: photo5,
+    },
+    {
+      mobile: photo6,
+      desktop: photo6,
+    },
+    {
+      mobile: photo7,
+      desktop: photo7,
+    },
+    {
+      mobile: photo8,
+      desktop: photo8,
+    },
+    {
+      mobile: photo9,
+      desktop: photo9,
+    },
+    {
+      mobile: photo10,
+      desktop: photo10,
+    },
+    {
+      mobile: photo11,
+      desktop: photo11,
+    },
+    {
+      mobile: photo12,
+      desktop: photo12,
+    },
+    {
+      mobile: photo13,
+      desktop: photo13,
+    },
+    {
+      mobile: photo14,
+      desktop: photo14,
+    },
+    {
+      mobile: photo15,
+      desktop: photo15,
+    },
+    {
+      mobile: photo16,
+      desktop: photo16,
+    },
+    {
+      mobile: photo17,
+      desktop: photo17,
+    },
+    {
+      mobile: photo18,
+      desktop: photo18,
+    },
+    {
+      mobile: photo19,
+      desktop: photo19,
+    },
+    {
+      mobile: photo20,
+      desktop: photo20,
+    },
+    {
+      mobile: photo21,
+      desktop: photo21,
+    },
+    {
+      mobile: photo22,
+      desktop: photo22,
+    },
+    {
+      mobile: photo23,
+      desktop: photo23,
+    },
+    {
+      mobile: photo24,
+      desktop: photo24,
+    },
+    {
+      mobile: photo25,
+      desktop: photo25,
+    },
+    {
+      mobile: photo26,
+      desktop: photo26,
+    },
+    {
+      mobile: photo27,
+      desktop: photo27,
+    },
+    {
+      mobile: photo28,
+      desktop: photo28,
+    },
+    {
+      mobile: photo29,
+      desktop: photo29,
+    },
+    {
+      mobile: photo30,
+      desktop: photo30,
+    },
   ],
   video: video,
   videoPhone: videoPhone,

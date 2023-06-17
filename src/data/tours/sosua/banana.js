@@ -55,19 +55,59 @@ const banana = {
   },
 
   photos: [
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-    photo5,
-    photo6,
-    photo7,
-    photo8,
-    photo9,
-    photo10,
-    photo11,
-    photo12,
-    photo13,
+    {
+      mobile: photo1,
+      desktop: photo1,
+    },
+    {
+      mobile: photo2,
+      desktop: photo2,
+    },
+    {
+      mobile: photo3,
+      desktop: photo3,
+    },
+    {
+      mobile: photo4,
+      desktop: photo4,
+    },
+
+    {
+      mobile: photo5,
+      desktop: photo5,
+    },
+    {
+      mobile: photo6,
+      desktop: photo6,
+    },
+    {
+      mobile: photo7,
+      desktop: photo7,
+    },
+    {
+      mobile: photo8,
+      desktop: photo8,
+    },
+    {
+      mobile: photo9,
+      desktop: photo9,
+    },
+    {
+      mobile: photo10,
+      desktop: photo10,
+    },
+    {
+      mobile: photo11,
+      desktop: photo11,
+    },
+    {
+      mobile: photo12,
+      desktop: photo12,
+    },
+    {
+      mobile: photo13,
+      desktop: photo13,
+    },
   ],
   video: video,
   videoPhone: videoPhone,

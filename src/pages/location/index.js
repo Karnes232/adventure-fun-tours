@@ -8,16 +8,18 @@ const index = () => {
   return (
     <Layout>
       <main>
-        <HeroComponent
-          page="indexMid"
-          h1="Our Locations"
-          p=""
-        />
+        <HeroComponent page="indexMid" h1="Our Locations" p="" />
         <div className="mt-[85vh]"></div>
         <TextComponent title="Choose your Location" className="" />
         <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">
-          {locations.map(location => {
-            return <LocationCardComponent location={location} my={"my-2"} />
+          {locations.map((location, index) => {
+            return (
+              <LocationCardComponent
+                location={location}
+                my={"my-2"}
+                key={index}
+              />
+            )
           })}
         </div>
       </main>

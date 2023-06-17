@@ -10,7 +10,7 @@ const photo7 = "https://i.postimg.cc/pX45qz8t/fishing4.webp"
 const photo8 = "https://i.postimg.cc/T1P5HcCT/fishing5.webp"
 const photo9 = "https://i.postimg.cc/V6gbRh97/fishing6.webp"
 const photo10 = "https://i.postimg.cc/ydsZ0KRg/fishing7.webp"
-const mainPhoto = 'https://i.postimg.cc/zfMscsXJ/fishing95.webp'
+const mainPhoto = "https://i.postimg.cc/zfMscsXJ/fishing95.webp"
 
 const videoPhone =
   "https://ik.imagekit.io/adventureTours/AdventureTours/PuntaCana/fishing-phone.mp4"
@@ -51,18 +51,54 @@ const fishing = {
   },
 
   photos: [
-    photo1,
-    photo2,
-    photo3,
-    mainPhoto,
-    photo4,
-    photo5,
-    photo6,
-    photo7,
-    photo8,
-    photo9,
-    photo10,
-    photo11
+    {
+      mobile: photo1,
+      desktop: photo1,
+    },
+    {
+      mobile: photo2,
+      desktop: photo2,
+    },
+    {
+      mobile: photo3,
+      desktop: photo3,
+    },
+    {
+      mobile: photo4,
+      desktop: photo4,
+    },
+    {
+      mobile: photo5,
+      desktop: photo5,
+    },
+    {
+      mobile: photo6,
+      desktop: photo6,
+    },
+    {
+      mobile: photo7,
+      desktop: photo7,
+    },
+    {
+      mobile: photo8,
+      desktop: photo8,
+    },
+    {
+      mobile: photo9,
+      desktop: photo9,
+    },
+    {
+      mobile: photo10,
+      desktop: photo10,
+    },
+    {
+      mobile: photo11,
+      desktop: photo11,
+    },
+    {
+      mobile: mainPhoto,
+      desktop: mainPhoto,
+    },
   ],
   video: video,
   videoPhone: videoPhone,

@@ -8,7 +8,11 @@ import "swiper/css/effect-fade"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper"
+
+import useWindowWidth from "../../customHooks/useWindowWidth"
 const SwiperCarousel = ({ tour }) => {
+  const windowWidth = useWindowWidth()
+
   return (
     <>
       <Swiper
@@ -28,7 +32,7 @@ const SwiperCarousel = ({ tour }) => {
         {tour.photos.map((image, index) => (
           <SwiperSlide key={index}>
             <img
-              src={image}
+              src={windowWidth < 600 ? image.mobile : image.desktop}
               className="h-[25vh] md:h-[35vh] lg:h-[45vh] object-cover w-full"
               alt={tour.name}
               loading="lazy"

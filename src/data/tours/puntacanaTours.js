@@ -23,7 +23,6 @@ const puntacanaTours = [
   dolphin,
   fishing,
   catalinaSnorkel,
-
 ]
 
 export default puntacanaTours

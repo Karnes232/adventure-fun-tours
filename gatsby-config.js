@@ -9,10 +9,10 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-postcss",
     {
-      resolve: 'gatsby-plugin-html-attributes',
+      resolve: "gatsby-plugin-html-attributes",
       options: {
-        lang: 'en'
-      }
+        lang: "en",
+      },
     },
     {
       resolve: "gatsby-plugin-google-analytics",
@@ -44,6 +44,6 @@ module.exports = {
       },
       __key: "images",
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
   ],
 }
