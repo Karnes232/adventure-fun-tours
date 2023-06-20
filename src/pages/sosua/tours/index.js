@@ -12,7 +12,7 @@ const index = () => {
         <HeroComponent
           page="indexMid"
           h1="Sosua Tours"
-          p="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+          p=""
         />
         <div className="mt-[85vh]"></div>
         <TextComponent title="Choose your Tour" className="" />
