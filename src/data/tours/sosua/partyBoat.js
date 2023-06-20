@@ -97,10 +97,6 @@ const partyBoat = {
       desktop: photo9,
     },
     {
-      mobile: photo10,
-      desktop: photo10,
-    },
-    {
       mobile: photo11,
       desktop: photo11,
     },
