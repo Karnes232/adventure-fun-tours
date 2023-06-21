@@ -30,7 +30,10 @@ export default IndexPage
 
 export const Head = () => (
   <>
-    <Seo title="
-Punta Cana Adventures - Experience the Thrills and Beauty of Punta Cana with Adventure Fun Tours" description='Embark on unforgettable adventures in Punta Cana with Adventure Fun Tours. Dive into turquoise waters on scuba diving expeditions, explore stunning coral reefs, enjoy exhilarating buggy tours, party on vibrant party boats, and more. Discover the thrill, natural beauty, and endless possibilities of Punta Cana with our experienced guides and top-quality equipment. Book your extraordinary adventure in Punta Cana with Adventure Fun Tours and create memories that will last a lifetime.' />
+    <Seo
+      title="
+Punta Cana Adventures - Experience the Thrills and Beauty of Punta Cana with Adventure Fun Tours"
+      description="Embark on unforgettable adventures in Punta Cana with Adventure Fun Tours. Dive into turquoise waters on scuba diving expeditions, explore stunning coral reefs, enjoy exhilarating buggy tours, party on vibrant party boats, and more. Discover the thrill, natural beauty, and endless possibilities of Punta Cana with our experienced guides and top-quality equipment. Book your extraordinary adventure in Punta Cana with Adventure Fun Tours and create memories that will last a lifetime."
+    />
   </>
 )

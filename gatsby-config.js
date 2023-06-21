@@ -21,11 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        
-        trackingIds: [
-       
-          "G-S2N6RLJNTK", 
-        ],
+        trackingIds: ["G-S2N6RLJNTK"],
         gtagConfig: {
           optimize_id: "OPT_CONTAINER_ID",
           anonymize_ip: true,
@@ -67,13 +63,13 @@ module.exports = {
       __key: "images",
     },
     `gatsby-plugin-offline`,
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-robots-txt",
     `gatsby-plugin-netlify`,
     {
-      resolve: 'gatsby-plugin-sitemap',
+      resolve: "gatsby-plugin-sitemap",
       options: {
-        excludes: ['/payment/*', '/payment','/thankyou/*', '/thankyou'],
+        excludes: ["/payment/*", "/payment", "/thankyou/*", "/thankyou"],
       },
-    }
+    },
   ],
 }

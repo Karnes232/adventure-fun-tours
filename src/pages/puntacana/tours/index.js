@@ -9,11 +9,7 @@ const index = () => {
   return (
     <Layout>
       <main>
-        <HeroComponent
-          page="indexMid"
-          h1="Punta Cana Tours"
-          p=""
-        />
+        <HeroComponent page="indexMid" h1="Punta Cana Tours" p="" />
         <div className="mt-[85vh]"></div>
         <TextComponent title="Choose your Tour" className="" />
         <div className="max-w-6xl flex flex-col md:flex-row flex-wrap justify-center md:justify-around  items-center mx-2 lg:mx-auto mb-5">

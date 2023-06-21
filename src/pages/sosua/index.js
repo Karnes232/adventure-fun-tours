@@ -30,6 +30,9 @@ export default IndexPage
 
 export const Head = () => (
   <>
-    <Seo title="Sosua Adventures - Explore the Beauty and Excitement of Sosua with Adventure Fun Tours" description='Discover the best of Sosua with Adventure Fun Tours. Dive into crystal-clear waters on scuba diving excursions, explore vibrant coral reefs, enjoy thrilling party boat tours, embark on horseback riding adventures, and more. Experience the beauty, excitement, and endless possibilities of Sosua with our expert guides and top-notch equipment. Book your unforgettable adventure in Sosua with Adventure Fun Tours today and create memories to last a lifetime.' />
+    <Seo
+      title="Sosua Adventures - Explore the Beauty and Excitement of Sosua with Adventure Fun Tours"
+      description="Discover the best of Sosua with Adventure Fun Tours. Dive into crystal-clear waters on scuba diving excursions, explore vibrant coral reefs, enjoy thrilling party boat tours, embark on horseback riding adventures, and more. Experience the beauty, excitement, and endless possibilities of Sosua with our expert guides and top-notch equipment. Book your unforgettable adventure in Sosua with Adventure Fun Tours today and create memories to last a lifetime."
+    />
   </>
 )
