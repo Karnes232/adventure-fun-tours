@@ -1,4 +1,5 @@
 import React from "react"
+import { navigate } from "gatsby"
 import { Fab, Action } from "react-tiny-fab"
 import "react-tiny-fab/dist/styles.css"
 import { AiOutlinePlus } from "react-icons/ai"
@@ -21,14 +22,16 @@ const actionButtonStyles = {
 }
 const handleEmail = () => {
   console.log('Email')
+  navigate("mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours")
   // window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
 }
 const handleWhatapp = () => {
   console.log('Whatsapp')
+  navigate("https://api.whatsapp.com/send?phone=18295641324")
   // window.open('https://api.whatsapp.com/send?phone=18295641324')
 }
 const handleContact = () => {
-  console.log('Contact Page')
+  navigate("/contact")
   // window.location.href = 'localhost:8000/contact'
 }
 
