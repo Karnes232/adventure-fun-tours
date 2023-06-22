@@ -22,17 +22,15 @@ const actionButtonStyles = {
 }
 const handleEmail = () => {
   console.log('Email')
-  navigate("mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours")
-  // window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
+  //navigate("mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours")
+  window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
 }
 const handleWhatapp = () => {
   console.log('Whatsapp')
   window.open("https://api.whatsapp.com/send?phone=18295641324")
-  // window.open('https://api.whatsapp.com/send?phone=18295641324')
 }
 const handleContact = () => {
-  navigate("/contact", { replace: false })
-  // window.location.href = 'localhost:8000/contact'
+  navigate("/contact")
 }
 
 const FloatingButton = () => {
