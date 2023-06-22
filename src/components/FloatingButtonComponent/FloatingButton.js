@@ -20,13 +20,16 @@ const actionButtonStyles = {
   width: '40px',
 }
 const handleEmail = () => {
-  window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
+  console.log('Email')
+  // window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
 }
 const handleWhatapp = () => {
-  window.open('https://api.whatsapp.com/send?phone=18295641324')
+  console.log('Whatsapp')
+  // window.open('https://api.whatsapp.com/send?phone=18295641324')
 }
 const handleContact = () => {
-  window.location.href = 'localhost:8000/contact'
+  console.log('Contact Page')
+  // window.location.href = 'localhost:8000/contact'
 }
 
 const FloatingButton = () => {
