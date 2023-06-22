@@ -41,6 +41,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.8.0",
     "react-tailwindcss-datepicker": "^1.6.0",
+    "react-tiny-fab": "^4.0.4",
     "swiper": "^9.2.3",
     "uid": "^2.0.2"
   },

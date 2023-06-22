@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/HeaderComponents/Header"
 import Footer from "./FooterComponent/Footer"
 import Helment from "react-helmet"
+import FloatingButton from "./FloatingButtonComponent/FloatingButton"
 
 export default function Layout({ children }) {
   return (
@@ -11,6 +12,7 @@ export default function Layout({ children }) {
       </Helment>
       <Header />
       {children}
+      <FloatingButton />
       <Footer />
     </div>
   )
