@@ -27,11 +27,11 @@ const handleEmail = () => {
 }
 const handleWhatapp = () => {
   console.log('Whatsapp')
-  navigate("https://api.whatsapp.com/send?phone=18295641324")
+  window.open("https://api.whatsapp.com/send?phone=18295641324")
   // window.open('https://api.whatsapp.com/send?phone=18295641324')
 }
 const handleContact = () => {
-  navigate("/contact")
+  navigate("/contact", { replace: false })
   // window.location.href = 'localhost:8000/contact'
 }
 
