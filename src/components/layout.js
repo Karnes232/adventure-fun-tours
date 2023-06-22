@@ -2,9 +2,13 @@ import React from "react"
 import Header from "../components/HeaderComponents/Header"
 import Footer from "./FooterComponent/Footer"
 import Helment from "react-helmet"
-import FloatingButton from "./FloatingButtonComponent/FloatingButton"
+
+const FloatingButton = React.lazy(() =>
+  import("./FloatingButtonComponent/FloatingButton")
+)
 
 export default function Layout({ children }) {
+  const isSSR = typeof window === "undefined"
   return (
     <div className="min-h-screen flex flex-col justify-between overflow-x-hidden">
       <Helment>
@@ -12,7 +16,11 @@ export default function Layout({ children }) {
       </Helment>
       <Header />
       {children}
-      <FloatingButton />
+      {!isSSR && (
+        <React.Suspense fallback={<div />}>
+          <FloatingButton />
+        </React.Suspense>
+      )}
       <Footer />
     </div>
   )
