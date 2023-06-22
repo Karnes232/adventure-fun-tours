@@ -3,6 +3,7 @@ import Layout from "../../components/layout"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../components/TextComponent/TextComponent"
 import image from "../../images/dominican6.webp"
+import Seo from "../../components/seo"
 const index = () => {
   return (
     <Layout>

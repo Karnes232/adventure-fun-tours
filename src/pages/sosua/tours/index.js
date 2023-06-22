@@ -4,6 +4,7 @@ import sosuaTours from "../../../data/tours/sosuaTours"
 import TourCard from "../../../components/TourCardComponent/TourCard"
 import HeroComponent from "../../../components/HeroComponent/HeroComponent"
 import TextComponent from "../../../components/TextComponent/TextComponent"
+import Seo from "../../../components/seo"
 
 const index = () => {
   return (

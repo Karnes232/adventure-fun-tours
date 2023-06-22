@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/layout"
 import HeroComponent from "../../components/HeroComponent/HeroComponent"
 import ContactForm from "../../components/ContactForm/ContactForm"
+import Seo from "../../components/seo"
 
 const index = () => {
   return (

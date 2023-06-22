@@ -4,6 +4,7 @@ import Layout from "../../components/layout"
 import TextComponent from "../../components/TextComponent/TextComponent"
 import locations from "../../data/locations"
 import LocationCardComponent from "../../components/LocationCardComponent/LocationCardComponent"
+import Seo from "../../components/seo"
 const index = () => {
   return (
     <Layout>
