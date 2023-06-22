@@ -29,4 +29,11 @@ const index = () => {
 
 export default index
 
-export const Head = () => <title>Our Locations - Adventure Fun Tours</title>
+export const Head = () => (
+  <>
+    <Seo
+      title="Adventure Fun Tours - Exciting Adventures in Punta Cana, Sosua, and More"
+      description="Discover a world of thrilling adventures with Adventure Fun Tours in Punta Cana, Sosua, and beyond. Dive into crystal-clear waters, explore vibrant coral reefs, embark on adrenaline-pumping excursions, and immerse yourself in the natural beauty of these breathtaking locations. Whether you're seeking scuba diving, snorkeling, party boat tours, horseback riding, or more, Adventure Fun Tours has you covered. Experience the best of each destination with our expert guides and top-notch equipment. Book your adventure today and create unforgettable memories with Adventure Fun Tours."
+    />
+  </>
+)

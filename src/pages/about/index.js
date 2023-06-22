@@ -50,4 +50,11 @@ const index = () => {
 
 export default index
 
-export const Head = () => <title>About Us - Adventure Fun Tours</title>
+export const Head = () => (
+  <>
+    <Seo
+      title="About Adventure Fun Tours - Unveiling the Essence of Unforgettable Adventures"
+      description="Discover the story behind Adventure Fun Tours and our commitment to providing unforgettable adventures. Learn about our passion for exploration, dedication to customer satisfaction, and the range of thrilling experiences we offer. From scuba diving and snorkeling to party boat tours and horseback riding, our team is here to make your adventure dreams come true. Explore our About Us page to get to know Adventure Fun Tours and embark on an extraordinary journey with us."
+    />
+  </>
+)
