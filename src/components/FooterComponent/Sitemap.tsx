@@ -9,7 +9,7 @@ const Sitemap = () => {
         {links.map(link => {
           return (
             <Link to={link.link} key={link.id}>
-              <p className="footerSitemap">{link.name}</p>
+              <p className="footerSitemap w-28 text-center">{link.name}</p>
             </Link>
           )
         })}
