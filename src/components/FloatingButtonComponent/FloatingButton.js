@@ -6,6 +6,7 @@ import { AiOutlinePlus } from "react-icons/ai"
 import { MdOutlineEmail } from "react-icons/md" 
 import { FaWhatsapp } from "react-icons/fa"
 import { BsChatRightDots } from "react-icons/bs"
+import useWindowWidth from "../../customHooks/useWindowWidth"
 
 const mainButtonStyles = {
   backgroundColor: "#F58634",
@@ -15,9 +16,10 @@ const mainButtonStyles = {
 }
 
 const style = { bottom: 0, right: 0 }
-
+const styleDesktop = { bottom: 24, right: 50 }
 const actionButtonStyles = {
-  backgroundColor: "#ed7c28",
+  backgroundColor: "#F58634",
+  opacity: .75,
   fontSize: '1.2rem',
   height: '40px',
   width: '40px',
@@ -28,22 +30,23 @@ const handleEmail = () => {
   window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
 }
 const handleWhatapp = () => {
-  console.log('Whatsapp')
   window.open("https://api.whatsapp.com/send?phone=18295641324")
 }
 const handleContact = () => {
   navigate("/contact")
 }
 
+
 const FloatingButton = () => {
+  const windowWidth = useWindowWidth()
   return (
     <Fab
       mainButtonStyles={mainButtonStyles}
-      style={style}
+      style={windowWidth < 1200 ? style : styleDesktop }
       icon={<AiOutlinePlus />}
       //event={event}
-     alwaysShowTitle={false}
-      //onClick={someFunctionForTheMainButton}
+      alwaysShowTitle={false}
+      // onClick={handleMainButtonClick}
     >
       <Action text="Email" style={actionButtonStyles} onClick={handleEmail}>
         <MdOutlineEmail />
