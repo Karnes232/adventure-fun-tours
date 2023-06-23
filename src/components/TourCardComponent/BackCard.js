@@ -8,8 +8,8 @@ const BackCard = ({ tour }) => {
         <p className="text-2xl">{name}</p>
         <p className="text-start text-lg">${price}</p>
         <p className="font-light pb-5">{description}</p>
-        <Link to={link} className="underline underline-offset-8 capitalize">
-          More Info
+        <Link to={link} className="underline underline-offset-8">
+          More Info about <span className="capitalize">{name}</span>
         </Link>
       </div>
     </div>
