@@ -1,0 +1,5 @@
+.rtf--ab:hover {
+    background-color: #a86f43 !important;
+    transform: scale(1.2) !important;
+    transition: all .7s linear .2s !important;
+}

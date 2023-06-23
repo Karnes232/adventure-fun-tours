@@ -14,14 +14,16 @@ const mainButtonStyles = {
   width: '45px',
 }
 
+const style = { bottom: 0, right: 0 }
+
 const actionButtonStyles = {
   backgroundColor: "#ed7c28",
   fontSize: '1.2rem',
   height: '40px',
   width: '40px',
+  left: '2px',
 }
 const handleEmail = () => {
-  console.log('Email')
   //navigate("mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours")
   window.open('mailto:adventurefuntours.dr@gmail.com?subject=Adventure Fun Tours')
 }
@@ -37,10 +39,10 @@ const FloatingButton = () => {
   return (
     <Fab
       mainButtonStyles={mainButtonStyles}
-      //style={style}
+      style={style}
       icon={<AiOutlinePlus />}
       //event={event}
-      //alwaysShowTitle={true}
+     alwaysShowTitle={false}
       //onClick={someFunctionForTheMainButton}
     >
       <Action text="Email" style={actionButtonStyles} onClick={handleEmail}>

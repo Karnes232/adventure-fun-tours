@@ -16,11 +16,11 @@ export default function Layout({ children }) {
       </Helment>
       <Header />
       {children}
-      {!isSSR && (
+      {/* {!isSSR && (
         <React.Suspense fallback={<div />}>
           <FloatingButton />
         </React.Suspense>
-      )}
+      )} */}
       <Footer />
     </div>
   )
