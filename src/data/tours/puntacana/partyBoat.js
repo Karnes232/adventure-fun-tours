@@ -19,7 +19,7 @@ const partyBoat = {
   location: "Punta Cana",
   link: "/puntacana/tours/partyboat/",
   img: mainPhoto,
-  price: "65",
+  price: "60",
   cost: "40",
   description:
     "Get ready to let loose and party as our lively crew creates a festive ambiance onboard the Taiguey Party Boat.",

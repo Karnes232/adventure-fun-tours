@@ -14,7 +14,7 @@ const horseRiding = {
   location: "Punta Cana",
   link: "/puntacana/tours/horse/",
   img: mainPhoto,
-  price: "59",
+  price: "89",
   cost: "35",
   description:
     "Saddle up and embark on a memorable horseback riding tour in Punta Cana, where you can immerse yourself in the stunning natural beauty of the Dominican Republic's tropical landscapes.",

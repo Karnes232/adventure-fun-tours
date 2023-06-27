@@ -35,7 +35,7 @@ const catalinaSnorkel = {
       "After an exhilarating snorkeling adventure, take some time to unwind and soak up the beauty of Catalina Island. Feel the warm sun on your skin as you relax on the soft, powdery white sand beaches. Enjoy a delicious lunch and refreshing beverages as you bask in the serenity of this tropical paradise, creating lasting memories with your fellow snorkelers. Are you ready to embark on an incredible snorkeling adventure in the Dominican Republic? Reserve your spot on our Catalina Snorkeling Tour and be prepared to be amazed by the vibrant underwater world of Catalina Island. Join us for a day filled with adventure, natural beauty, and relaxation, as you create memories that will last a lifetime!",
   },
   available: ["Mon", "Wed", "Fri"],
-  included: ["Transportation", "Open Bar", "Lunch"],
+  included: ["Transportation", "Snorkeling Equipment", "Open Bar", "Lunch"],
   goodInfo: [
     "Bring your bathing suit and sunscreen",
     "All guests must be mobile and in good physical condition",
