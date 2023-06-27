@@ -1,12 +1,12 @@
 .rtf--ab:hover {
-    background-color: #F58634 !important;
-    opacity: 1 !important;
-    transform: scale(1.1) !important;
-    transition: all .3s linear .2s !important;
+  background-color: #f58634 !important;
+  opacity: 1 !important;
+  transform: scale(1.1) !important;
+  transition: all 0.3s linear 0.2s !important;
 }
 
 .rtf--mb:hover {
-    opacity: .75 !important;
-    transform: scale(1.1) !important;
-    transition: all .3s linear .2s !important;
+  opacity: 0.75 !important;
+  transform: scale(1.1) !important;
+  transition: all 0.3s linear 0.2s !important;
 }
