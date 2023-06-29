@@ -14,7 +14,7 @@ const FrontCard = ({ tour }) => {
         />
         <div className="absolute bottom-3 left-3 text-primary-color">
           <p className="text-lg text-start">{name}</p>
-          <p className="text-start my-2 text-xl">${price}</p>
+          <p className="text-start my-2 text-2xl">${price}</p>
           <p className="text-start font-light pb-5 lg:hidden leading-5">
             {description}
           </p>
