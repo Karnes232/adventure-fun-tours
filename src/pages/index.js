@@ -85,6 +85,7 @@ export const Head = () => (
       title="Adventure Fun Tours - Unforgettable Adventures in the Dominican Republic"
       description="Discover the best adventure tours and activities in the Dominican Republic with Adventure Fun Tours. From exhilarating scuba diving and snorkeling excursions in Punta Cana and Sosua to thrilling party boat experiences, horseback riding tours, and more, we offer unforgettable adventures for travelers of all ages. Immerse yourself in the stunning natural beauty of the Dominican Republic and create lifelong memories with our expert guides and top-notch equipment. Book your next adventure with Adventure Fun Tours and let us show you the true spirit of adventure in the Caribbean"
       schemaMarkup={schema}
+      keywords={'Punta Cana, Tours and Excursions, Caribbean Adventures, Snorkeling, Catamaran Cruises, Adventure Tours, Water Sports, Family-Friendly, Guided Tours'}
     />
     <meta
       name="google-site-verification"
